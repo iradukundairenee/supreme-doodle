@@ -1,0 +1,7 @@
+2021-05-03 12:48:28,248 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for contacts_test
+2021-05-03 12:48:28,344 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for contacts_test
+2021-05-03 12:48:28,554 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for contacts_test
+2021-05-03 12:48:28,624 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for contacts_test
+2021-05-03 12:48:28,835 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for contacts_test
+2021-05-03 12:48:28,916 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for contacts_test
+2021-05-03 12:48:29,109 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for contacts_test

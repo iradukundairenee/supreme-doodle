@@ -1,0 +1,1 @@
+2021-05-02 06:05:47,311 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for contacts_test

@@ -1,0 +1,3 @@
+2021-05-09 20:03:34,382 INFO scheduler Scheduled Job Complete: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for company_contacts
+2021-05-09 20:03:34,486 INFO scheduler Scheduled Job Start: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for company_contacts
+2021-05-09 20:03:34,864 INFO scheduler Scheduled Job Complete: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for company_contacts

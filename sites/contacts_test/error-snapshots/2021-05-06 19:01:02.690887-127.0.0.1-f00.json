@@ -1,0 +1,648 @@
+{
+ "etype": "OperationalError",
+ "evalue": "OperationalError(1050, \"Table 'tabcompany' already exists\")",
+ "exception": {
+  "args": [
+   40,
+   49,
+   48,
+   53,
+   48,
+   44,
+   32,
+   34,
+   84,
+   97,
+   98,
+   108,
+   101,
+   32,
+   39,
+   116,
+   97,
+   98,
+   99,
+   111,
+   109,
+   112,
+   97,
+   110,
+   121,
+   39,
+   32,
+   97,
+   108,
+   114,
+   101,
+   97,
+   100,
+   121,
+   32,
+   101,
+   120,
+   105,
+   115,
+   116,
+   115,
+   34,
+   41
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   79,
+   112,
+   101,
+   114,
+   97,
+   116,
+   105,
+   111,
+   110,
+   97,
+   108,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'http://0.0.0.0:8000/api/method/frappe.desk.form.save.savedocs' [POST]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "66": "",
+    "67": "\t\telif request.path.startswith(\"/api/\"):",
+    "68": "\t\t\tresponse = frappe.api.handle()",
+    "69": "",
+    "70": "\t\telif request.path.startswith('/backups'):"
+   },
+   "lnum": 68
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "52": "\tif call==\"method\":",
+    "53": "\t\tfrappe.local.form_dict.cmd = doctype",
+    "54": "\t\treturn frappe.handler.handle()",
+    "55": "",
+    "56": "\telif call==\"resource\":"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'frappe.desk.form.save.savedocs'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "29": "",
+    "30": "\tif cmd!='login':",
+    "31": "\t\tdata = execute_cmd(cmd)",
+    "32": "",
+    "33": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 31
+  },
+  {
+   "call": "(cmd='frappe.desk.form.save.savedocs', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'doc': '{\"docstatus\":0,\"doctype\":\"DocType\",\"nam... 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function savedocs>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "65": "\t\tis_valid_http_method(method)",
+    "66": "",
+    "67": "\treturn frappe.call(method, **frappe.form_dict)",
+    "68": "",
+    "69": "def is_valid_http_method(method):"
+   },
+   "lnum": 67
+  },
+  {
+   "call": "(fn=<function savedocs>, *args=(), **kwargs={'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs', 'doc': '{\"docstatus\":0,\"doctype\":\"DocType\",\"name\":\"new-d...ted\":false,\"label\":\"Route\",\"fieldname\":\"route\"}]}'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function savedocs>",
+    "newargs": "{'action': 'Save', 'doc': '{\"docstatus\":0,\"doctype\":\"DocType\",\"name\":\"new-d...ted\":false,\"label\":\"Route\",\"fieldname\":\"route\"}]}'}"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1167": "\tnewargs = get_newargs(fn, kwargs)",
+    "1168": "",
+    "1169": "\treturn fn(*args, **newargs)",
+    "1170": "",
+    "1171": "def get_newargs(fn, kwargs):"
+   },
+   "lnum": 1169
+  },
+  {
+   "call": "(doc=<frappe.core.doctype.doctype.doctype.DocType object>, action='Save')",
+   "dump": {
+    "doc": "<frappe.core.doctype.doctype.doctype.DocType object>",
+    "doc. save": "<bound method Document.save of <frappe.core.doctype.doctype.doctype.DocType object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/desk/form/save.py",
+   "func": "savedocs",
+   "lines": {
+    "19": "\t\t\tdoc.submit()",
+    "20": "\t\telse:",
+    "21": "\t\t\tdoc.save()",
+    "22": "",
+    "23": "\t\t# update recent documents"
+   },
+   "lnum": 21
+  },
+  {
+   "call": "(self=<frappe.core.doctype.doctype.doctype.DocType object>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "kwargs": "{}",
+    "self": "<frappe.core.doctype.doctype.doctype.DocType object>",
+    "self. _save": "<bound method Document._save of <frappe.core.doctype.doctype.doctype.DocType object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "save",
+   "lines": {
+    "282": "\tdef save(self, *args, **kwargs):",
+    "283": "\t\t\"\"\"Wrapper for _save\"\"\"",
+    "284": "\t\treturn self._save(*args, **kwargs)",
+    "285": "",
+    "286": "\tdef _save(self, ignore_permissions=None, ignore_version=None):"
+   },
+   "lnum": 284
+  },
+  {
+   "call": "(self=<frappe.core.doctype.doctype.doctype.DocType object>, ignore_permissions=None, ignore_version=None)",
+   "dump": {
+    "self": "<frappe.core.doctype.doctype.doctype.DocType object>",
+    "self. insert": "<bound method Document.insert of <frappe.core.doctype.doctype.doctype.DocType object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "_save",
+   "lines": {
+    "304": "",
+    "305": "\t\tif self.get(\"__islocal\") or not self.get(\"name\"):",
+    "306": "\t\t\tself.insert()",
+    "307": "\t\t\treturn",
+    "308": ""
+   },
+   "lnum": 306
+  },
+  {
+   "call": "(self=<frappe.core.doctype.doctype.doctype.DocType object>, ignore_permissions=None, ignore_links=None, ignore_if_duplicate=False, ignore_mandatory=None, set_name=None, set_child_names=True)",
+   "dump": {
+    "self": "<frappe.core.doctype.doctype.doctype.DocType object>",
+    "self. run_post_save_methods": "<bound method Document.run_post_save_methods of ...ppe.core.doctype.doctype.doctype.DocType object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "insert",
+   "lines": {
+    "265": "\t\t# during document creation",
+    "266": "\t\tself.flags.update_log_for_doc_creation = True",
+    "267": "\t\tself.run_post_save_methods()",
+    "268": "\t\tself.flags.in_insert = False",
+    "269": ""
+   },
+   "lnum": 267
+  },
+  {
+   "call": "(self=<frappe.core.doctype.doctype.doctype.DocType object>)",
+   "dump": {
+    "self": "<frappe.core.doctype.doctype.doctype.DocType object>",
+    "self. run_method": "<bound method Document.run_method of <frappe.core.doctype.doctype.doctype.DocType object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_post_save_methods",
+   "lines": {
+    "991": "",
+    "992": "\t\tif self._action==\"save\":",
+    "993": "\t\t\tself.run_method(\"on_update\")",
+    "994": "\t\telif self._action==\"submit\":",
+    "995": "\t\t\tself.run_method(\"on_update\")"
+   },
+   "lnum": 993
+  },
+  {
+   "call": "(self=<frappe.core.doctype.doctype.doctype.DocType object>, method='on_update', *args=(), **kwargs={})",
+   "dump": {
+    "Document. hook": "<function Document.hook>",
+    "args": "()",
+    "fn": "<function Document.run_method.<locals>.<lambda>>",
+    "global Document": "<class 'frappe.model.document.Document'>",
+    "kwargs": "{}",
+    "out": "undefined",
+    "self": "<frappe.core.doctype.doctype.doctype.DocType object>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_method",
+   "lines": {
+    "856": "",
+    "857": "\t\tfn.__name__ = str(method)",
+    "858": "\t\tout = Document.hook(fn)(self, *args, **kwargs)",
+    "859": "",
+    "860": "\t\tself.run_notifications(method)"
+   },
+   "lnum": 858
+  },
+  {
+   "call": "(self=<frappe.core.doctype.doctype.doctype.DocType object>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "composed": "<function Document.hook.<locals>.compose.<locals>.runner>",
+    "kwargs": "{}",
+    "method": "'on_update'",
+    "self": "<frappe.core.doctype.doctype.doctype.DocType object>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "composer",
+   "lines": {
+    "1145": "",
+    "1146": "\t\t\tcomposed = compose(f, *hooks)",
+    "1147": "\t\t\treturn composed(self, method, *args, **kwargs)",
+    "1148": "",
+    "1149": "\t\treturn composer"
+   },
+   "lnum": 1147
+  },
+  {
+   "call": "(self=<frappe.core.doctype.doctype.doctype.DocType object>, method='on_update', *args=(), **kwargs={})",
+   "dump": {
+    "add_to_return_value": "<function Document.hook.<locals>.add_to_return_value>",
+    "args": "()",
+    "fn": "<function Document.run_method.<locals>.<lambda>>",
+    "kwargs": "{}",
+    "self": "<frappe.core.doctype.doctype.doctype.DocType object>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "runner",
+   "lines": {
+    "1128": "\t\tdef compose(fn, *hooks):",
+    "1129": "\t\t\tdef runner(self, method, *args, **kwargs):",
+    "1130": "\t\t\t\tadd_to_return_value(self, fn(self, *args, **kwargs))",
+    "1131": "\t\t\t\tfor f in hooks:",
+    "1132": "\t\t\t\t\tadd_to_return_value(self, f(self, method, *args, **kwargs))"
+   },
+   "lnum": 1130
+  },
+  {
+   "call": "(self=<frappe.core.doctype.doctype.doctype.DocType object>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "builtin getattr": "<built-in function getattr>",
+    "fn": "undefined",
+    "kwargs": "{}",
+    "method": "'on_update'",
+    "self": "<frappe.core.doctype.doctype.doctype.DocType object>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "<lambda>",
+   "lines": {
+    "850": "",
+    "851": "\t\tif hasattr(self, method) and hasattr(getattr(self, method), \"__call__\"):",
+    "852": "\t\t\tfn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)",
+    "853": "\t\telse:",
+    "854": "\t\t\t# hack! to run hooks even if method does not exist"
+   },
+   "lnum": 852
+  },
+  {
+   "call": "(self=<frappe.core.doctype.doctype.doctype.DocType object>)",
+   "dump": {
+    "e": "undefined"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py",
+   "func": "on_update",
+   "lines": {
+    "249": "\t\texcept Exception as e:",
+    "250": "\t\t\tprint(\"\\n\\nThere was an issue while migrating the DocType: {}\\n\".format(self.name))",
+    "251": "\t\t\traise e",
+    "252": "",
+    "253": "\t\tself.change_modified_of_parent()"
+   },
+   "lnum": 251
+  },
+  {
+   "call": "(self=<frappe.core.doctype.doctype.doctype.DocType object>)",
+   "dump": {
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. updatedb": "<bound method MariaDBDatabase.updatedb of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global Meta": "<class 'frappe.model.meta.Meta'>",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "self": "<frappe.core.doctype.doctype.doctype.DocType object>",
+    "self. name": "'company'"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py",
+   "func": "on_update",
+   "lines": {
+    "246": "\t\t\"\"\"Update database schema, make controller templates if `custom` is not set and clear cache.\"\"\"",
+    "247": "\t\ttry:",
+    "248": "\t\t\tfrappe.db.updatedb(self.name, Meta(self))",
+    "249": "\t\texcept Exception as e:",
+    "250": "\t\t\tprint(\"\\n\\nThere was an issue while migrating the DocType: {}\\n\".format(self.name))"
+   },
+   "lnum": 248
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, doctype='company', meta=<frappe.model.meta.Meta object>)",
+   "dump": {
+    "db_table": "<frappe.database.mariadb.schema.MariaDBTable object>",
+    "db_table. sync": "<bound method DBTable.sync of <frappe.database.mariadb.schema.MariaDBTable object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py",
+   "func": "updatedb",
+   "lines": {
+    "283": "",
+    "284": "\t\t\tself.commit()",
+    "285": "\t\t\tdb_table.sync()",
+    "286": "\t\t\tself.begin()",
+    "287": ""
+   },
+   "lnum": 285
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.schema.MariaDBTable object>)",
+   "dump": {
+    "self": "<frappe.database.mariadb.schema.MariaDBTable object>",
+    "self. create": "<bound method MariaDBTable.create of <frappe.database.mariadb.schema.MariaDBTable object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/schema.py",
+   "func": "sync",
+   "lines": {
+    "35": "\t\t\treturn",
+    "36": "\t\tif self.is_new():",
+    "37": "\t\t\tself.create()",
+    "38": "\t\telse:",
+    "39": "\t\t\tfrappe.cache().hdel('table_columns', self.table_name)"
+   },
+   "lnum": 37
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.schema.MariaDBTable object>)",
+   "dump": {
+    "\"\"\"create table `%s` (\n\t\t\tname varchar({varchar_len}) not null primary key,\n\t\t\tcreation datetime(6),\n\t\t\tmodified datetime(6),\n\t\t\tmodified_by varchar({varchar_len}),\n\t\t\towner varchar({varchar_len}),\n\t\t\tdocstatus int(1) not null default '0',\n\t\t\tparent varchar({varchar_len}),\n\t\t\tparentfield varchar({varchar_len}),\n\t\t\tparenttype varchar({varchar_len}),\n\t\t\tidx int(8) not null default '0',\n\t\t\t%sindex parent(parent),\n\t\t\tindex modified(modified))\n\t\t\tENGINE={engine}\n\t\t\tROW_FORMAT=COMPRESSED\n\t\t\tCHARACTER SET=utf8mb4\n\t\t\tCOLLATE=utf8mb4_unicode_ci\"\"\".format": "undefined",
+    "add_text": "'`company_name` varchar(140),\\n`logo` text,\\n`addre...omments` text,\\n`_assign` text,\\n`_liked_by` text,\\n'",
+    "engine": "undefined",
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. VARCHAR_LEN": "140",
+    "frappe.db. sql": "<bound method Database.sql of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "self": "<frappe.database.mariadb.schema.MariaDBTable object>",
+    "self. meta": "<frappe.model.meta.Meta object>",
+    "self. table_name": "'tabcompany'",
+    "self.meta. get": "<bound method BaseDocument.get of <frappe.model.meta.Meta object>>",
+    "varchar_len": "undefined"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py",
+   "func": "create",
+   "lines": {
+    "18": "",
+    "19": "\t\t# create table",
+    "20": "\t\tfrappe.db.sql(\"\"\"create table `%s` (",
+    "21": "\t\t\tname varchar({varchar_len}) not null primary key,",
+    "22": "\t\t\tcreation datetime(6),"
+   },
+   "lnum": 20
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, query='create table `tabcompany` (\\n\\t\\t\\tname varchar(140)...ARACTER SET=utf8mb4\\n\\t\\t\\tCOLLATE=utf8mb4_unicode_ci', values=(), as_dict=0, as_list=0, formatted=0, debug=0, ignore_ddl=0, as_utf8=0, auto_commit=0, update=None, explain=False)",
+   "dump": {
+    "query": "'create table `tabcompany` (\\n\\t\\t\\tname varchar(140)...ARACTER SET=utf8mb4\\n\\t\\t\\tCOLLATE=utf8mb4_unicode_ci'",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. _cursor": "<pymysql.cursors.Cursor object>",
+    "self._cursor. execute": "<bound method Cursor.execute of <pymysql.cursors.Cursor object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "sql",
+   "lines": {
+    "150": "",
+    "151": "\t\t\telse:",
+    "152": "\t\t\t\tself._cursor.execute(query)",
+    "153": "",
+    "154": "\t\t\t\tif frappe.flags.in_migrate:"
+   },
+   "lnum": 152
+  },
+  {
+   "call": "(self=<pymysql.cursors.Cursor object>, query='create table `tabcompany` (\\n\\t\\t\\tname varchar(140)...ARACTER SET=utf8mb4\\n\\t\\t\\tCOLLATE=utf8mb4_unicode_ci', args=None)",
+   "dump": {
+    "query": "'create table `tabcompany` (\\n\\t\\t\\tname varchar(140)...ARACTER SET=utf8mb4\\n\\t\\t\\tCOLLATE=utf8mb4_unicode_ci'",
+    "result": "undefined",
+    "self": "<pymysql.cursors.Cursor object>",
+    "self. _query": "<bound method Cursor._query of <pymysql.cursors.Cursor object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/cursors.py",
+   "func": "execute",
+   "lines": {
+    "146": "        query = self.mogrify(query, args)",
+    "147": "",
+    "148": "        result = self._query(query)",
+    "149": "        self._executed = query",
+    "150": "        return result"
+   },
+   "lnum": 148
+  },
+  {
+   "call": "(self=<pymysql.cursors.Cursor object>, q='create table `tabcompany` (\\n\\t\\t\\tname varchar(140)...ARACTER SET=utf8mb4\\n\\t\\t\\tCOLLATE=utf8mb4_unicode_ci')",
+   "dump": {
+    "conn": "<pymysql.connections.Connection object>",
+    "conn. query": "<bound method Connection.query of <pymysql.connections.Connection object>>",
+    "q": "'create table `tabcompany` (\\n\\t\\t\\tname varchar(140)...ARACTER SET=utf8mb4\\n\\t\\t\\tCOLLATE=utf8mb4_unicode_ci'"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/cursors.py",
+   "func": "_query",
+   "lines": {
+    "308": "        self._last_executed = q",
+    "309": "        self._clear_result()",
+    "310": "        conn.query(q)",
+    "311": "        self._do_get_result()",
+    "312": "        return self.rowcount"
+   },
+   "lnum": 310
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, sql=b\"create table `tabcompany` (\\n\\t\\t\\tname varcha...ER SET=utf8mb4\\n\\t\\t\\tCOLLATE=utf8mb4_unicode_ci\", unbuffered=False)",
+   "dump": {
+    "self": "<pymysql.connections.Connection object>",
+    "self. _affected_rows": "0",
+    "self. _read_query_result": "<bound method Connection._read_query_result of <pymysql.connections.Connection object>>",
+    "unbuffered": "False"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "query",
+   "lines": {
+    "546": "            sql = sql.encode(self.encoding, \"surrogateescape\")",
+    "547": "        self._execute_command(COMMAND.COM_QUERY, sql)",
+    "548": "        self._affected_rows = self._read_query_result(unbuffered=unbuffered)",
+    "549": "        return self._affected_rows",
+    "550": ""
+   },
+   "lnum": 548
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, unbuffered=False)",
+   "dump": {
+    "result": "<pymysql.connections.MySQLResult object>",
+    "result. read": "<bound method MySQLResult.read of <pymysql.connections.MySQLResult object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "_read_query_result",
+   "lines": {
+    "773": "        else:",
+    "774": "            result = MySQLResult(self)",
+    "775": "            result.read()",
+    "776": "        self._result = result",
+    "777": "        if result.server_status is not None:"
+   },
+   "lnum": 775
+  },
+  {
+   "call": "(self=<pymysql.connections.MySQLResult object>)",
+   "dump": {
+    "first_packet": "undefined",
+    "self": "<pymysql.connections.MySQLResult object>",
+    "self. connection": "None",
+    "self.connection._read_packet": "undefined"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "read",
+   "lines": {
+    "1154": "    def read(self):",
+    "1155": "        try:",
+    "1156": "            first_packet = self.connection._read_packet()",
+    "1157": "",
+    "1158": "            if first_packet.is_ok_packet():"
+   },
+   "lnum": 1156
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, packet_type=<class 'pymysql.protocol.MysqlPacket'>)",
+   "dump": {
+    "packet": "<pymysql.protocol.MysqlPacket object>",
+    "packet. raise_for_error": "<bound method MysqlPacket.raise_for_error of <pymysql.protocol.MysqlPacket object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "_read_packet",
+   "lines": {
+    "723": "            if self._result is not None and self._result.unbuffered_active is True:",
+    "724": "                self._result.unbuffered_active = False",
+    "725": "            packet.raise_for_error()",
+    "726": "        return packet",
+    "727": ""
+   },
+   "lnum": 725
+  },
+  {
+   "call": "(self=<pymysql.protocol.MysqlPacket object>)",
+   "dump": {
+    "err. raise_mysql_exception": "<function raise_mysql_exception>",
+    "global err": "<module 'pymysql.err' from '/Users/andela/Dev/fr.../env/lib/python3.9/site-packages/pymysql/err.py'>",
+    "self": "<pymysql.protocol.MysqlPacket object>",
+    "self. _data": "b\"\\xff\\x1a\\x04#42S01Table 'tabcompany' already exists\""
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/protocol.py",
+   "func": "raise_for_error",
+   "lines": {
+    "219": "        if DEBUG:",
+    "220": "            print(\"errno =\", errno)",
+    "221": "        err.raise_mysql_exception(self._data)",
+    "222": "",
+    "223": "    def dump(self):"
+   },
+   "lnum": 221
+  },
+  {
+   "call": "(data=b\"\\xff\\x1a\\x04#42S01Table 'tabcompany' already exists\")",
+   "dump": {
+    "errno": "1050",
+    "errorclass": "<class 'pymysql.err.OperationalError'>",
+    "errval": "\"Table 'tabcompany' already exists\""
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/err.py",
+   "func": "raise_mysql_exception",
+   "lines": {
+    "139": "    errval = data[9:].decode(\"utf-8\", \"replace\")",
+    "140": "    errorclass = error_map.get(errno)",
+    "141": "    if errorclass is None:",
+    "142": "        errorclass = InternalError if errno < 1000 else OperationalError",
+    "143": "    raise errorclass(errno, errval)"
+   },
+   "lnum": 143
+  }
+ ],
+ "locals": {
+  "data": "b\"\\xff\\x1a\\x04#42S01Table 'tabcompany' already exists\"",
+  "errno": "1050",
+  "errorclass": "<class 'pymysql.err.OperationalError'>",
+  "errval": "Table 'tabcompany' already exists"
+ },
+ "pyver": "Python 3.9.4: /Users/andela/Dev/frappe-bench/env/bin/python (prefix: /Users/andela/Dev/frappe-bench/env)",
+ "timestamp": "2021-05-06 19:01:02.691013",
+ "traceback": "Traceback (most recent call last):\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/app.py\", line 68, in application\n    response = frappe.api.handle()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/api.py\", line 54, in handle\n    return frappe.handler.handle()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/handler.py\", line 31, in handle\n    data = execute_cmd(cmd)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/handler.py\", line 67, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py\", line 1169, in call\n    return fn(*args, **newargs)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/desk/form/save.py\", line 21, in savedocs\n    doc.save()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py\", line 284, in save\n    return self._save(*args, **kwargs)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py\", line 306, in _save\n    self.insert()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py\", line 267, in insert\n    self.run_post_save_methods()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py\", line 993, in run_post_save_methods\n    self.run_method(\"on_update\")\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py\", line 858, in run_method\n    out = Document.hook(fn)(self, *args, **kwargs)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py\", line 1147, in composer\n    return composed(self, method, *args, **kwargs)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py\", line 1130, in runner\n    add_to_return_value(self, fn(self, *args, **kwargs))\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py\", line 852, in <lambda>\n    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py\", line 251, in on_update\n    raise e\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py\", line 248, in on_update\n    frappe.db.updatedb(self.name, Meta(self))\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py\", line 285, in updatedb\n    db_table.sync()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/schema.py\", line 37, in sync\n    self.create()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py\", line 20, in create\n    frappe.db.sql(\"\"\"create table `%s` (\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py\", line 152, in sql\n    self._cursor.execute(query)\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/cursors.py\", line 148, in execute\n    result = self._query(query)\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/cursors.py\", line 310, in _query\n    conn.query(q)\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 548, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 775, in _read_query_result\n    result.read()\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 1156, in read\n    first_packet = self.connection._read_packet()\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 725, in _read_packet\n    packet.raise_for_error()\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\npymysql.err.OperationalError: (1050, \"Table 'tabcompany' already exists\")\n"
+}

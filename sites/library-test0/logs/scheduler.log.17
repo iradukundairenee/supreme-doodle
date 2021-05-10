@@ -1,0 +1,4 @@
+2021-04-29 08:12:14,491 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library-test0
+2021-04-29 08:12:14,710 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library-test0
+2021-04-29 08:12:14,786 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library-test0
+2021-04-29 08:12:14,970 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library-test0

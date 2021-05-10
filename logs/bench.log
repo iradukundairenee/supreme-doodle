@@ -1,0 +1,362 @@
+2021-04-28 14:41:23,178 DEBUG cd frappe-bench && /usr/local/bin/virtualenv -q env -p python3
+2021-04-28 14:41:24,057 LOG Getting app frappe
+2021-04-28 14:41:24,058 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2021-04-28 14:41:36,485 LOG installing frappe
+2021-04-28 14:41:36,485 DEBUG frappe-bench/env/bin/python -m pip install -q -U -e frappe-bench/apps/frappe 
+2021-04-28 14:42:33,697 DEBUG cd frappe-bench/apps/frappe && yarn install
+2021-04-28 14:43:08,321 DEBUG cd frappe-bench/apps/frappe && yarn install
+2021-04-28 14:43:15,199 DEBUG cd frappe-bench && bench build
+2021-04-28 14:43:15,562 INFO /usr/local/bin/bench build
+2021-04-28 14:43:24,226 LOG setting up backups
+2021-04-28 14:43:24,240 INFO Bench frappe-bench initialized
+2021-04-28 14:44:53,248 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-04-28 14:44:54,891 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-04-28 14:44:54,937 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-04-28 14:44:54,948 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-04-28 14:44:54,992 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-04-28 14:44:55,030 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-04-28 14:44:55,039 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-04-28 14:46:58,427 INFO /Users/andela/Dev/bench-env/bin/bench new-site library-test0
+2021-04-28 15:05:12,041 INFO /Users/andela/Dev/bench-env/bin/bench --site library-test0 install-app library_management
+2021-04-28 15:05:57,624 INFO /Users/andela/Dev/bench-env/bin/bench --site library-test0 install-app library-management
+2021-04-28 15:09:14,889 INFO /Users/andela/Dev/bench-env/bin/bench --site library-test0 install-app library_management
+2021-04-28 15:11:05,280 INFO /Users/andela/Dev/bench-env/bin/bench --site library-test0 install-app library_management
+2021-04-28 15:12:11,563 INFO /Users/andela/Dev/bench-env/bin/bench --site library-test0 install-app library_management
+2021-04-28 15:12:33,987 INFO /Users/andela/Dev/bench-env/bin/bench migrate
+2021-04-28 15:30:48,384 INFO /usr/local/bin/bench start
+2021-04-28 15:33:15,826 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-04-28 15:33:17,375 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-04-28 15:33:17,384 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-04-28 15:33:17,449 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-04-28 15:33:17,458 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-04-28 15:33:17,590 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-04-28 15:33:17,651 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-04-28 15:44:06,796 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-04-28 17:43:31,680 INFO /usr/local/bin/bench --version
+2021-04-28 18:00:01,052 INFO /usr/local/bin/bench --verbose --site all backup
+2021-04-28 18:00:01,054 INFO /usr/local/bin/bench --verbose --site all backup
+2021-04-29 11:13:55,426 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-04-29 11:13:56,932 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-04-29 11:13:56,993 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-04-29 11:13:57,035 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-04-29 11:13:57,059 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-04-29 11:13:57,130 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-04-29 11:13:57,146 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-04-29 12:00:01,800 INFO /usr/local/bin/bench --verbose --site all backup
+2021-04-29 12:00:01,800 INFO /usr/local/bin/bench --verbose --site all backup
+2021-04-29 13:58:20,646 INFO /Users/andela/Dev/bench-env/bin/bench new-app company_contacts
+2021-04-29 13:58:20,675 LOG creating new app company_contacts
+2021-04-29 13:59:48,247 LOG installing company_contacts
+2021-04-29 13:59:48,249 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/company_contacts 
+2021-04-29 13:59:51,649 DEBUG bench build --app company_contacts
+2021-04-29 13:59:51,936 INFO /Users/andela/Dev/bench-env/bin/bench build --app company_contacts
+2021-04-29 14:02:58,052 INFO /Users/andela/Dev/bench-env/bin/bench new-site contacts_test
+2021-04-29 14:14:30,647 INFO /Users/andela/Dev/bench-env/bin/bench --site contacts_test install-app company_contacts
+2021-04-29 14:18:01,652 INFO /Users/andela/Dev/bench-env/bin/bench --site contacts_test install-app company_contacts
+2021-04-29 14:31:37,974 INFO /Users/andela/Dev/bench-env/bin/bench --site library-test0 install-app company_contacts
+2021-04-29 14:32:35,753 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-04-29 14:32:37,230 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-04-29 14:32:37,326 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-04-29 14:32:37,335 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-04-29 14:32:37,341 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-04-29 14:32:37,429 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-04-29 14:32:37,438 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-04-29 14:36:33,304 INFO /Users/andela/Dev/bench-env/bin/bench --site contacts_test install-app company_contacts
+2021-04-29 14:41:48,091 INFO /Users/andela/Dev/bench-env/bin/bench --site contacts_test install-app company_contacts
+2021-04-29 14:45:32,924 INFO /Users/andela/Dev/bench-env/bin/bench --site contacts_test install-app company_contacts
+2021-04-29 15:58:22,086 INFO /Users/andela/Dev/bench-env/bin/bench use contacts-test
+2021-04-29 15:58:37,796 INFO /Users/andela/Dev/bench-env/bin/bench use contacts_test
+2021-04-29 15:58:50,141 INFO /Users/andela/Dev/bench-env/bin/bench --site contacts_test install-app company_contacts
+2021-04-29 16:59:50,023 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-04-29 17:01:29,693 INFO /Users/andela/Dev/bench-env/bin/bench use contact_test
+2021-04-29 17:02:16,398 INFO /Users/andela/Dev/bench-env/bin/bench use contacts_test
+2021-04-29 17:20:38,855 INFO /Users/andela/Dev/bench-env/bin/bench --site contact_tests install-app company_contacts
+2021-04-29 17:21:22,379 INFO /Users/andela/Dev/bench-env/bin/bench --site contact_test install-app company_contacts
+2021-04-29 17:21:29,507 INFO /Users/andela/Dev/bench-env/bin/bench --site contact_test install-app company_contacts
+2021-04-29 17:21:44,742 INFO /Users/andela/Dev/bench-env/bin/bench --site contact_test install-app company_contacts
+2021-04-29 17:32:34,699 INFO /Users/andela/Dev/bench-env/bin/bench --site contact_test install-app company_contacts
+2021-04-29 17:32:57,435 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-04-29 18:03:06,491 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-04-29 18:03:08,184 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-04-29 18:03:08,191 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-04-29 18:03:08,204 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-04-29 18:03:08,206 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-04-29 18:03:08,287 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-04-29 18:03:08,374 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-04-30 00:00:01,739 INFO /usr/local/bin/bench --verbose --site all backup
+2021-04-30 00:00:01,745 INFO /usr/local/bin/bench --verbose --site all backup
+2021-04-30 11:45:23,901 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-04-30 11:45:25,250 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-04-30 11:45:25,263 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-04-30 11:45:25,265 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-04-30 11:45:25,265 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-04-30 11:45:25,341 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-04-30 11:45:25,440 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-04-30 12:00:00,845 INFO /usr/local/bin/bench --verbose --site all backup
+2021-04-30 12:00:00,848 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-02 06:00:01,908 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-02 06:00:01,910 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-02 06:04:37,299 INFO /usr/local/bin/bench start
+2021-05-02 06:04:38,578 INFO /usr/local/bin/bench serve --port 8000
+2021-05-02 06:04:38,581 INFO /usr/local/bin/bench watch
+2021-05-02 06:04:38,589 INFO /usr/local/bin/bench worker --queue default
+2021-05-02 06:04:38,595 INFO /usr/local/bin/bench worker --queue short
+2021-05-02 06:04:38,641 INFO /usr/local/bin/bench schedule
+2021-05-02 06:04:38,733 INFO /usr/local/bin/bench worker --queue long
+2021-05-03 09:41:56,303 INFO /usr/local/bin/bench start
+2021-05-03 09:46:33,168 INFO /usr/local/bin/bench start
+2021-05-03 09:46:34,508 INFO /usr/local/bin/bench serve --port 8000
+2021-05-03 09:46:34,553 INFO /usr/local/bin/bench worker --queue default
+2021-05-03 09:46:34,565 INFO /usr/local/bin/bench watch
+2021-05-03 09:46:34,634 INFO /usr/local/bin/bench worker --queue long
+2021-05-03 09:46:34,642 INFO /usr/local/bin/bench worker --queue short
+2021-05-03 09:46:34,700 INFO /usr/local/bin/bench schedule
+2021-05-03 12:00:01,476 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-03 12:00:01,478 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-03 18:00:00,892 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-03 18:00:00,893 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-03 20:00:47,623 INFO /Users/andela/Dev/bench-env/bin/bench --site contacts_test set-config developer_mode 1
+2021-05-03 20:29:22,990 INFO /Users/andela/Dev/bench-env/bin/bench --site contacts_test set-config developer_mode 1
+2021-05-04 10:33:08,551 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-04 10:33:09,949 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-04 10:33:10,000 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-04 10:33:10,036 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-04 10:33:10,039 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-04 10:33:10,047 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-04 10:33:10,173 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-04 10:46:41,558 INFO /usr/local/bin/bench --site contact_test install-app company_contacts
+2021-05-04 10:47:22,857 INFO /usr/local/bin/bench --site contact_test install-app company_contacts
+2021-05-04 10:54:41,388 INFO /usr/local/bin/bench --site contact_test set-config developer_mode 1
+2021-05-04 10:57:02,717 INFO /usr/local/bin/bench migrate
+2021-05-04 10:57:42,570 INFO /usr/local/bin/bench use --site contact_test
+2021-05-04 10:58:12,234 INFO /usr/local/bin/bench use contact_test
+2021-05-04 10:58:21,894 INFO /usr/local/bin/bench use contact_test
+2021-05-04 11:07:43,060 INFO /usr/local/bin/bench newsite company_contacts
+2021-05-04 11:07:43,063 WARNING /usr/local/bin/bench newsite company_contacts executed with exit code 2
+2021-05-04 11:20:33,168 INFO /usr/local/bin/bench --site contact_test backup
+2021-05-04 11:21:08,317 INFO /usr/local/bin/bench new-site company_contacts
+2021-05-04 11:33:50,320 INFO /usr/local/bin/bench --site company_contacts install-app company_contacts
+2021-05-04 11:39:45,201 INFO /usr/local/bin/bench use company_contacts
+2021-05-04 11:43:57,117 INFO /usr/local/bin/bench --site [site name] set-config developer_mode 1
+2021-05-04 11:44:06,955 INFO /usr/local/bin/bench --site [site name] set-config developer_mode 1
+2021-05-04 11:49:32,068 INFO /usr/local/bin/bench --site company_contacts set-config developer_mode 1
+2021-05-04 12:00:00,985 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-04 12:00:01,003 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-04 14:09:55,909 INFO /Users/andela/Dev/bench-env/bin/bench --site [site name] set-config developer_mode 1
+2021-05-04 14:10:16,009 INFO /Users/andela/Dev/bench-env/bin/bench --site company_contacts set-config developer_mode 1
+2021-05-04 14:26:55,225 INFO /Users/andela/Dev/bench-env/bin/bench --site company_contacts set-config developer_mode 1
+2021-05-04 14:39:33,379 INFO /Users/andela/Dev/bench-env/bin/bench use contact_test
+2021-05-04 14:41:45,017 INFO /Users/andela/Dev/bench-env/bin/bench use contacts_test
+2021-05-04 14:41:56,116 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-04 14:41:57,620 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-04 14:41:57,647 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-04 14:41:57,655 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-04 14:41:57,740 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-04 14:41:57,786 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-04 14:41:57,827 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-04 15:49:19,163 INFO /usr/local/bin/bench --site contact_test set-config developer_mode 1
+2021-05-04 15:49:43,021 INFO /usr/local/bin/bench --site contacts_test set-config developer_mode 1
+2021-05-04 16:52:25,247 INFO /usr/local/bin/bench --site contacts_test set-config developer_mode 1
+2021-05-04 17:12:13,478 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-04 17:12:14,995 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-04 17:12:15,059 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-04 17:12:15,061 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-04 17:12:15,063 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-04 17:12:15,088 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-04 17:12:15,180 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-04 17:53:53,102 INFO /usr/local/bin/Bench --site contacts_test install-app company_contacts
+2021-05-04 18:00:01,634 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-04 18:00:01,636 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-05 11:20:16,043 INFO /usr/local/bin/bench start
+2021-05-05 11:20:17,399 INFO /usr/local/bin/bench schedule
+2021-05-05 11:20:17,407 INFO /usr/local/bin/bench watch
+2021-05-05 11:20:17,435 INFO /usr/local/bin/bench serve --port 8000
+2021-05-05 11:20:17,436 INFO /usr/local/bin/bench worker --queue default
+2021-05-05 11:20:17,441 INFO /usr/local/bin/bench worker --queue short
+2021-05-05 11:20:17,449 INFO /usr/local/bin/bench worker --queue long
+2021-05-05 12:00:01,163 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-05 12:00:01,163 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-05 13:28:35,548 INFO /usr/local/bin/bench drop-site company_contacts
+2021-05-05 14:15:57,364 INFO /usr/local/bin/bench start
+2021-05-05 14:15:58,750 INFO /usr/local/bin/bench serve --port 8000
+2021-05-05 14:15:58,770 INFO /usr/local/bin/bench worker --queue short
+2021-05-05 14:15:58,773 INFO /usr/local/bin/bench watch
+2021-05-05 14:15:58,796 INFO /usr/local/bin/bench worker --queue default
+2021-05-05 14:15:58,823 INFO /usr/local/bin/bench worker --queue long
+2021-05-05 14:15:58,842 INFO /usr/local/bin/bench schedule
+2021-05-05 14:54:03,947 INFO /usr/local/bin/bench start
+2021-05-05 14:54:05,554 INFO /usr/local/bin/bench serve --port 8000
+2021-05-05 14:54:05,593 INFO /usr/local/bin/bench schedule
+2021-05-05 14:54:05,649 INFO /usr/local/bin/bench worker --queue short
+2021-05-05 14:54:05,678 INFO /usr/local/bin/bench watch
+2021-05-05 14:54:05,689 INFO /usr/local/bin/bench worker --queue default
+2021-05-05 14:54:05,786 INFO /usr/local/bin/bench worker --queue long
+2021-05-05 14:57:45,494 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-05 14:57:46,798 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-05 14:57:46,816 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-05 14:57:46,821 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-05 14:57:46,823 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-05 14:57:46,832 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-05 14:57:46,957 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-05 14:58:06,346 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-05 14:58:07,588 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-05 14:58:07,676 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-05 14:58:07,706 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-05 14:58:07,747 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-05 14:58:07,779 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-05 14:58:07,786 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-05 15:00:29,803 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-05 15:00:31,376 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-05 15:00:31,427 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-05 15:00:31,449 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-05 15:00:31,560 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-05 15:00:31,626 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-05 15:00:31,633 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-05 15:01:09,637 INFO /Users/andela/Dev/bench-env/bin/bench migrate
+2021-05-05 15:01:20,820 INFO /Users/andela/Dev/bench-env/bin/bench migrate
+2021-05-05 15:01:28,813 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-05 15:01:30,159 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-05 15:01:30,159 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-05 15:01:30,162 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-05 15:01:30,230 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-05 15:01:30,241 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-05 15:01:30,242 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-05 15:09:00,683 INFO /Users/andela/Dev/bench-env/bin/bench update --reset
+2021-05-05 15:09:39,969 LOG pulling frappe
+2021-05-05 15:09:39,970 DEBUG cd /Users/andela/Dev/frappe-bench/apps/frappe && git fetch --depth=1 --no-tags upstream develop
+2021-05-05 15:10:15,382 DEBUG cd /Users/andela/Dev/frappe-bench/apps/frappe && git reset --hard upstream/develop
+2021-05-05 15:10:15,881 DEBUG cd /Users/andela/Dev/frappe-bench/apps/frappe && git reflog expire --all
+2021-05-05 15:10:15,891 DEBUG cd /Users/andela/Dev/frappe-bench/apps/frappe && git gc --prune=all
+2021-05-05 15:10:16,409 DEBUG cd /Users/andela/Dev/frappe-bench/apps/frappe && find . -name "*.pyc" -delete
+2021-05-05 15:10:17,881 LOG pulling library_management
+2021-05-05 15:10:17,882 DEBUG cd /Users/andela/Dev/frappe-bench/apps/library_management && git fetch --depth=1 --no-tags upstream master
+2021-05-05 15:10:20,255 DEBUG cd /Users/andela/Dev/frappe-bench/apps/library_management && git reset --hard upstream/master
+2021-05-05 15:10:20,276 DEBUG cd /Users/andela/Dev/frappe-bench/apps/library_management && git reflog expire --all
+2021-05-05 15:10:20,289 DEBUG cd /Users/andela/Dev/frappe-bench/apps/library_management && git gc --prune=all
+2021-05-05 15:10:20,366 DEBUG cd /Users/andela/Dev/frappe-bench/apps/library_management && find . -name "*.pyc" -delete
+2021-05-05 15:10:20,379 DEBUG /Users/andela/Dev/frappe-bench/env/bin/python -m pip install -q -U pip
+2021-05-05 15:10:47,223 LOG installing frappe
+2021-05-05 15:10:47,223 DEBUG /Users/andela/Dev/frappe-bench/env/bin/python -m pip install -q -U -e /Users/andela/Dev/frappe-bench/apps/frappe 
+2021-05-05 15:10:50,740 DEBUG cd /Users/andela/Dev/frappe-bench/apps/frappe && yarn install
+2021-05-05 15:11:06,960 LOG installing library_management
+2021-05-05 15:11:06,960 DEBUG /Users/andela/Dev/frappe-bench/env/bin/python -m pip install -q -U -e /Users/andela/Dev/frappe-bench/apps/library_management 
+2021-05-05 15:11:09,599 LOG installing company_contacts
+2021-05-05 15:11:09,599 DEBUG /Users/andela/Dev/frappe-bench/env/bin/python -m pip install -q -U -e /Users/andela/Dev/frappe-bench/apps/company_contacts 
+2021-05-05 15:11:12,181 DEBUG cd /Users/andela/Dev/frappe-bench/apps/frappe && yarn install
+2021-05-05 15:11:22,772 WARNING /Users/andela/Dev/bench-env/bin/bench update --reset executed with exit code 1
+2021-05-05 15:14:04,608 INFO /Users/andela/Dev/bench-env/bin/bench migrate
+2021-05-05 15:14:18,655 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-05 15:14:19,917 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-05 15:14:19,992 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-05 15:14:20,021 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-05 15:14:20,065 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-05 15:14:20,068 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-05 15:14:20,073 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-05 18:00:01,006 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-05 18:00:01,007 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-05 22:22:06,017 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-05 22:22:07,426 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-05 22:22:07,433 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-05 22:22:07,456 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-05 22:22:07,478 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-05 22:22:07,487 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-05 22:22:07,604 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-06 09:08:47,885 INFO /usr/local/bin/bench build
+2021-05-06 09:09:01,330 INFO /usr/local/bin/bench build
+2021-05-06 11:10:35,882 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-06 11:10:37,303 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-06 11:10:37,322 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-06 11:10:37,353 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-06 11:10:37,383 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-06 11:10:37,482 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-06 11:10:37,498 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-06 11:11:28,863 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-06 11:14:09,139 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-06 11:14:10,516 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-06 11:14:10,594 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-06 11:14:10,676 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-06 11:14:10,665 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-06 11:14:10,692 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-06 11:14:10,831 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-06 12:00:01,217 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-06 12:00:01,217 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-06 16:30:23,036 INFO /usr/local/bin/bench migrate
+2021-05-06 16:52:01,625 INFO /usr/local/bin/bench clear-cache
+2021-05-06 17:02:08,777 INFO /usr/local/bin/bench migrate
+2021-05-06 17:24:07,851 INFO /Users/andela/Dev/bench-env/bin/bench
+2021-05-06 17:24:20,593 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-06 17:24:21,877 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-06 17:24:21,922 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-06 17:24:21,928 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-06 17:24:21,935 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-06 17:24:22,022 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-06 17:24:22,032 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-06 18:00:01,481 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-06 18:00:01,483 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-06 19:55:28,464 INFO /Users/andela/Dev/bench-env/bin/bench new-site companies
+2021-05-06 19:58:41,275 INFO /Users/andela/Dev/bench-env/bin/bench --site companies install-app company_contacts
+2021-05-06 19:58:58,112 INFO /Users/andela/Dev/bench-env/bin/bench use companies
+2021-05-06 19:59:24,829 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-06 20:06:25,291 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-06 20:06:26,964 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-06 20:06:26,977 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-06 20:06:27,001 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-06 20:06:27,030 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-06 20:06:27,035 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-06 20:06:27,048 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-07 08:29:39,451 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-07 08:29:41,038 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-07 08:29:41,048 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-07 08:29:41,078 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-07 08:29:41,081 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-07 08:29:41,173 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-07 08:29:41,193 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-07 12:00:01,337 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-07 12:00:01,338 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-08 07:16:31,557 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-08 07:16:32,909 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-08 07:16:32,917 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-08 07:16:32,919 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-08 07:16:32,988 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-08 07:16:32,997 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-08 07:16:33,005 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-09 14:16:57,102 INFO /usr/local/bin/bench --site companies enable-scheduler
+2021-05-09 16:24:16,922 INFO /usr/local/bin/bench --site companies mariadb
+2021-05-09 16:24:58,170 INFO /usr/local/bin/bench --site companiee MariaDB
+2021-05-09 17:11:13,100 INFO /usr/local/bin/bench frappe --clear_cache and try again
+2021-05-09 17:21:44,022 INFO /usr/local/bin/bench set-config developer_mode 1
+2021-05-09 17:37:39,104 INFO /usr/local/bin/bench use contacts_test
+2021-05-09 17:40:05,363 INFO /usr/local/bin/bench use companies
+2021-05-09 17:48:08,486 INFO /usr/local/bin/bench migrate
+2021-05-09 18:00:01,152 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-09 18:00:01,152 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-09 19:15:40,873 INFO /usr/local/bin/bench use companies
+2021-05-09 19:24:08,886 INFO /usr/local/bin/bench new-site company_contacts
+2021-05-09 19:25:19,536 INFO /usr/local/bin/bench use company_contacts
+2021-05-09 19:36:49,159 INFO /usr/local/bin/bench start
+2021-05-09 19:37:38,630 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-09 19:37:39,885 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-09 19:49:24,879 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-09 19:49:26,415 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-09 19:49:26,450 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-09 19:49:26,469 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-09 19:49:26,564 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-09 19:49:26,565 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-09 19:49:26,605 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-09 19:50:38,155 INFO /usr/local/bin/bench use company_contacts
+2021-05-09 19:52:54,586 INFO /usr/local/bin/bench --site company_contacts install-app company_contacts
+2021-05-09 21:21:50,025 INFO /usr/local/bin/bench migrate
+2021-05-09 21:45:32,890 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-09 21:45:34,238 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-09 21:45:34,328 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-09 21:45:34,343 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-09 21:45:34,424 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-09 21:45:34,447 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-09 21:45:34,452 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-10 08:43:14,299 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-10 08:43:15,790 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-10 08:43:15,822 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-10 08:43:15,858 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-10 08:43:15,907 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-10 08:43:15,957 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-10 08:43:15,961 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000

@@ -1,0 +1,3 @@
+frappe
+library_management
+company_contacts

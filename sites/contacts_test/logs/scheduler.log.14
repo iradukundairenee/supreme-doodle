@@ -1,0 +1,5 @@
+2021-05-03 00:08:04,655 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for contacts_test
+2021-05-03 00:08:04,758 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_daily_updates for contacts_test
+2021-05-03 00:08:05,066 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_daily_updates for contacts_test
+2021-05-03 00:08:05,161 INFO scheduler Scheduled Job Start: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for contacts_test
+2021-05-03 00:08:05,445 INFO scheduler Scheduled Job Complete: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for contacts_test

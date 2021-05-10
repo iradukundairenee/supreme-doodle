@@ -1,0 +1,196 @@
+2021-05-09 22:31:04,555 INFO frappe Checking incoming POP3 email server smtp.mail.gmail.com.:110 ssl=0...
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":"smtp.mail.gmail.com.","smtp_server":"smtp.gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 22:31:04,985 WARNING frappe Incoming email account "smtp.mail.gmail.com." not correct
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":"smtp.mail.gmail.com.","smtp_server":"smtp.gmail.com"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 44, in validate
+    test = poplib.POP3(self.email_server, port=get_port(self))
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/poplib.py", line 104, in __init__
+    self.sock = self._create_socket(timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/poplib.py", line 112, in _create_socket
+    return socket.create_connection((self.host, self.port), timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2021-05-09 23:15:44,281 INFO frappe Checking incoming IMAP email server  pop.gmail.com :993 ssl=0...
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":" pop.gmail.com ","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 23:15:45,075 WARNING frappe Incoming email account " pop.gmail.com " not correct
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":" pop.gmail.com ","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 36, in validate
+    test = imaplib.IMAP4(self.email_server, port=get_port(self))
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 202, in __init__
+    self.open(host, port, timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 312, in open
+    self.sock = self._create_socket(timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 302, in _create_socket
+    return socket.create_connection(address)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2021-05-09 23:15:59,387 INFO frappe Checking incoming POP3 email server  pop.gmail.com :993 ssl=1...
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":1,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":" pop.gmail.com ","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 23:15:59,395 WARNING frappe Incoming email account " pop.gmail.com " not correct
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":1,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":" pop.gmail.com ","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 42, in validate
+    test = poplib.POP3_SSL(self.email_server, port=get_port(self))
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/poplib.py", line 452, in __init__
+    POP3.__init__(self, host, port, timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/poplib.py", line 104, in __init__
+    self.sock = self._create_socket(timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/poplib.py", line 455, in _create_socket
+    sock = POP3._create_socket(self, timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/poplib.py", line 112, in _create_socket
+    return socket.create_connection((self.host, self.port), timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2021-05-09 23:16:10,789 INFO frappe Checking incoming IMAP email server  pop.gmail.com :993 ssl=0...
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":" pop.gmail.com ","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 23:16:10,792 WARNING frappe Incoming email account " pop.gmail.com " not correct
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":" pop.gmail.com ","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 36, in validate
+    test = imaplib.IMAP4(self.email_server, port=get_port(self))
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 202, in __init__
+    self.open(host, port, timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 312, in open
+    self.sock = self._create_socket(timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 302, in _create_socket
+    return socket.create_connection(address)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2021-05-09 23:16:22,221 INFO frappe Checking incoming IMAP email server  imap.gmail.com:993 ssl=0...
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":" imap.gmail.com","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 23:16:23,174 WARNING frappe Incoming email account " imap.gmail.com" not correct
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":" imap.gmail.com","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 36, in validate
+    test = imaplib.IMAP4(self.email_server, port=get_port(self))
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 202, in __init__
+    self.open(host, port, timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 312, in open
+    self.sock = self._create_socket(timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 302, in _create_socket
+    return socket.create_connection(address)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2021-05-09 23:16:58,708 INFO frappe Checking incoming IMAP email server pop.gmail.com:995 ssl=0...
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","smtp_server":"smtp.gmail.com","incoming_port":"995","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 23:17:09,660 WARNING frappe Incoming email account "pop.gmail.com" not correct
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","smtp_server":"smtp.gmail.com","incoming_port":"995","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 36, in validate
+    test = imaplib.IMAP4(self.email_server, port=get_port(self))
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 205, in __init__
+    self._connect()
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 247, in _connect
+    self.welcome = self._get_response()
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 1075, in _get_response
+    resp = self._get_line()
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 1185, in _get_line
+    raise self.abort('socket error: EOF')
+imaplib.IMAP4.abort: socket error: EOF
+2021-05-09 23:17:27,968 INFO frappe Checking incoming IMAP email server pop.gmail.com:993 ssl=0...
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 23:17:39,803 WARNING frappe Incoming email account "pop.gmail.com" not correct
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":1,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 36, in validate
+    test = imaplib.IMAP4(self.email_server, port=get_port(self))
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 205, in __init__
+    self._connect()
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 247, in _connect
+    self.welcome = self._get_response()
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 1075, in _get_response
+    resp = self._get_line()
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 1185, in _get_line
+    raise self.abort('socket error: EOF')
+imaplib.IMAP4.abort: socket error: EOF
+2021-05-09 23:18:29,510 INFO frappe Checking incoming POP3 email server pop.gmail.com:993 ssl=1...
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":1,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 23:18:30,252 WARNING frappe Incoming email account "pop.gmail.com" not correct
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":1,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 42, in validate
+    test = poplib.POP3_SSL(self.email_server, port=get_port(self))
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/poplib.py", line 452, in __init__
+    POP3.__init__(self, host, port, timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/poplib.py", line 107, in __init__
+    self.welcome = self._getresp()
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/poplib.py", line 157, in _getresp
+    raise error_proto(resp)
+poplib.error_proto: b'* OK Gimap ready for requests from 41.138.84.133 w19mb99831789wmi'
+2021-05-09 23:18:33,706 INFO frappe Checking incoming POP3 email server pop.gmail.com:993 ssl=0...
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 23:18:45,099 WARNING frappe Incoming email account "pop.gmail.com" not correct
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":0,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","smtp_server":"smtp.gmail.com","incoming_port":"993","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 44, in validate
+    test = poplib.POP3(self.email_server, port=get_port(self))
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/poplib.py", line 107, in __init__
+    self.welcome = self._getresp()
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/poplib.py", line 154, in _getresp
+    resp, o = self._getline()
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/poplib.py", line 138, in _getline
+    if not line: raise error_proto('-ERR EOF')
+poplib.error_proto: -ERR EOF
+2021-05-09 23:19:25,906 INFO frappe Checking incoming POP3 email server pop.gmail.com:995 ssl=1...
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":1,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","smtp_server":"smtp.gmail.com","incoming_port":"995","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 23:19:29,306 INFO frappe Checking outgoing SMTP email server smtp.gmail.com:587 STARTTLS=0...
+Site: company_contacts
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Email Domain","name":"new-email-domain-1","__islocal":1,"__unsaved":1,"owner":"Administrator","use_imap":0,"use_ssl":1,"attachment_limit":1,"use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"email_id":"iradukundairenee9@gmail.com","domain_name":"gmail.com","email_server":"pop.gmail.com","smtp_server":"smtp.gmail.com","incoming_port":"995","smtp_port":"587"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 23:19:42,478 INFO frappe Checking incoming IMAP email server pop.gmail.com:995 ssl=1...
+Site: company_contacts
+Form Dict: {'doc': '{"name":"gmail.com","owner":"Administrator","creation":"2021-05-09 23:19:25.903712","modified":"2021-05-09 23:19:25.903712","modified_by":"Administrator","idx":0,"docstatus":0,"domain_name":"gmail.com","email_id":"iradukundairenee9@gmail.com","email_server":"pop.gmail.com","use_imap":1,"use_ssl":1,"incoming_port":"995","attachment_limit":1,"smtp_server":"smtp.gmail.com","use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"smtp_port":"587","doctype":"Email Domain","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 23:19:43,504 WARNING frappe Incoming email account "pop.gmail.com" not correct
+Site: company_contacts
+Form Dict: {'doc': '{"name":"gmail.com","owner":"Administrator","creation":"2021-05-09 23:19:25.903712","modified":"2021-05-09 23:19:25.903712","modified_by":"Administrator","idx":0,"docstatus":0,"domain_name":"gmail.com","email_id":"iradukundairenee9@gmail.com","email_server":"pop.gmail.com","use_imap":1,"use_ssl":1,"incoming_port":"995","attachment_limit":1,"smtp_server":"smtp.gmail.com","use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"smtp_port":"587","doctype":"Email Domain","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/email/doctype/email_domain/email_domain.py", line 34, in validate
+    test = imaplib.IMAP4_SSL(self.email_server, port=get_port(self))
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 1324, in __init__
+    IMAP4.__init__(self, host, port, timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 205, in __init__
+    self._connect()
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/imaplib.py", line 253, in _connect
+    raise self.error(self.welcome)
+imaplib.IMAP4.error: None
+2021-05-09 23:19:48,837 INFO frappe Checking incoming POP3 email server pop.gmail.com:995 ssl=1...
+Site: company_contacts
+Form Dict: {'doc': '{"name":"gmail.com","owner":"Administrator","creation":"2021-05-09 23:19:25.903712","modified":"2021-05-09 23:19:25.903712","modified_by":"Administrator","idx":0,"docstatus":0,"domain_name":"gmail.com","email_id":"iradukundairenee9@gmail.com","email_server":"pop.gmail.com","use_imap":0,"use_ssl":1,"incoming_port":"995","attachment_limit":1,"smtp_server":"smtp.gmail.com","use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"smtp_port":"587","doctype":"Email Domain","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-05-09 23:19:50,508 INFO frappe Checking outgoing SMTP email server smtp.gmail.com:587 STARTTLS=0...
+Site: company_contacts
+Form Dict: {'doc': '{"name":"gmail.com","owner":"Administrator","creation":"2021-05-09 23:19:25.903712","modified":"2021-05-09 23:19:25.903712","modified_by":"Administrator","idx":0,"docstatus":0,"domain_name":"gmail.com","email_id":"iradukundairenee9@gmail.com","email_server":"pop.gmail.com","use_imap":0,"use_ssl":1,"incoming_port":"995","attachment_limit":1,"smtp_server":"smtp.gmail.com","use_tls":0,"use_ssl_for_outgoing":0,"append_emails_to_sent_folder":0,"smtp_port":"587","doctype":"Email Domain","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
