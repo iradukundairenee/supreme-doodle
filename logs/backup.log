@@ -1318,3 +1318,1843 @@ Traceback (most recent call last):
     raise raise_exception(msg)
 frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
 
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site testing. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site testing. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site todo_app. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site todo_app. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site vsdc. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site vsdc. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site testing. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site testing. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site todo_app. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site todo_app. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site vsdc_site. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site vsdc_site. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site testing. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site testing. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site todo_app. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site todo_app. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site vsdc_site. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site vsdc_site. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site testing. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site testing. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site todo_app. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site todo_app. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site vsdc_site. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site vsdc_site. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site testing. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site testing. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site todo_app. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site todo_app. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site vsdc_site. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site vsdc_site. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Backup failed for Site companies. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site company_contacts. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site contacts_test. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site library-test0. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site testing. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site testing. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site todo_app. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site todo_app. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site vsdc_site. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Backup failed for Site vsdc_site. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/site.py", line 429, in backup
+    odb = scheduled_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 515, in scheduled_backup
+    odb = new_backup(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 567, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 195, in get_backup
+    self.take_dump()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/backups.py", line 354, in take_dump
+    frappe.throw(
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 427, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 406, in msgprint
+    _raise_exception()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py", line 360, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ExecutableNotFound: mysqldump not found in PATH! This is required to take a backup.
+

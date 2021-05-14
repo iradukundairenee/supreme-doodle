@@ -1,0 +1,8 @@
+2021-05-10 18:08:11,598 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-10 18:08:12,021 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-10 18:08:12,133 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-10 18:08:12,421 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-10 18:08:12,504 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-10 18:08:12,723 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-10 18:08:12,794 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-10 18:08:13,023 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies

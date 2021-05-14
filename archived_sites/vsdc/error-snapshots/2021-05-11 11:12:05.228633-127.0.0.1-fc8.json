@@ -1,0 +1,471 @@
+{
+ "etype": "ProgrammingError",
+ "evalue": "ProgrammingError(1146, \"Table '_9c11359802a264e4.tablanguage' doesn't exist\")",
+ "exception": {
+  "args": [
+   40,
+   49,
+   49,
+   52,
+   54,
+   44,
+   32,
+   34,
+   84,
+   97,
+   98,
+   108,
+   101,
+   32,
+   39,
+   95,
+   57,
+   99,
+   49,
+   49,
+   51,
+   53,
+   57,
+   56,
+   48,
+   50,
+   97,
+   50,
+   54,
+   52,
+   101,
+   52,
+   46,
+   116,
+   97,
+   98,
+   108,
+   97,
+   110,
+   103,
+   117,
+   97,
+   103,
+   101,
+   39,
+   32,
+   100,
+   111,
+   101,
+   115,
+   110,
+   39,
+   116,
+   32,
+   101,
+   120,
+   105,
+   115,
+   116,
+   34,
+   41
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   80,
+   114,
+   111,
+   103,
+   114,
+   97,
+   109,
+   109,
+   105,
+   110,
+   103,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'http://vsdc:8000/' [GET]>)",
+   "dump": {
+    "global init_request": "<function init_request>",
+    "request": "<Request 'http://vsdc:8000/' [GET]>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "52": "\t\trollback = True",
+    "53": "",
+    "54": "\t\tinit_request(request)",
+    "55": "",
+    "56": "\t\tfrappe.recorder.record()"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "(request=<Request 'http://vsdc:8000/' [GET]>)",
+   "dump": {
+    "frappe. auth": "<module 'frappe.auth' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py'>",
+    "frappe. local": "<werkzeug.local.Local object>",
+    "frappe.auth. HTTPRequest": "<class 'frappe.auth.HTTPRequest'>",
+    "frappe.local.http_request": "undefined",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "init_request",
+   "lines": {
+    "136": "",
+    "137": "\tif request.method != \"OPTIONS\":",
+    "138": "\t\tfrappe.local.http_request = frappe.auth.HTTPRequest()",
+    "139": "",
+    "140": "def process_response(response):"
+   },
+   "lnum": 138
+  },
+  {
+   "call": "(self=<frappe.auth.HTTPRequest object>)",
+   "dump": {
+    "self": "<frappe.auth.HTTPRequest object>",
+    "self. set_lang": "<bound method HTTPRequest.set_lang of <frappe.auth.HTTPRequest object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py",
+   "func": "__init__",
+   "lines": {
+    "41": "",
+    "42": "\t\t# language",
+    "43": "\t\tself.set_lang()",
+    "44": "",
+    "45": "\t\t# load cookies"
+   },
+   "lnum": 43
+  },
+  {
+   "call": "(self=<frappe.auth.HTTPRequest object>)",
+   "dump": {
+    "frappe. local": "<werkzeug.local.Local object>",
+    "frappe.local. lang": "'en'",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "guess_language": "<function guess_language>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py",
+   "func": "set_lang",
+   "lines": {
+    "85": "\tdef set_lang(self):",
+    "86": "\t\tfrom frappe.translate import guess_language",
+    "87": "\t\tfrappe.local.lang = guess_language()",
+    "88": "",
+    "89": "\tdef get_db_name(self):"
+   },
+   "lnum": 87
+  },
+  {
+   "call": "(lang_list=None)",
+   "dump": {
+    "global get_all_languages": "<function get_all_languages>",
+    "lang_list": "None"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/translate.py",
+   "func": "guess_language",
+   "lines": {
+    "33": "\tguess = None",
+    "34": "\tif not lang_list:",
+    "35": "\t\tlang_list = get_all_languages() or []",
+    "36": "",
+    "37": "\tfor l in lang_codes:"
+   },
+   "lnum": 35
+  },
+  {
+   "call": "(with_language_name=False)",
+   "dump": {
+    ").get_value": "undefined",
+    "frappe. cache": "<function cache>",
+    "get_language_codes": "<function get_all_languages.<locals>.get_language_codes>",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/translate.py",
+   "func": "get_all_languages",
+   "lines": {
+    "865": "\t\treturn frappe.cache().get_value('languages_with_name', get_all_language_with_name)",
+    "866": "\telse:",
+    "867": "\t\treturn frappe.cache().get_value('languages', get_language_codes)",
+    "868": "",
+    "869": "@frappe.whitelist(allow_guest=True)"
+   },
+   "lnum": 867
+  },
+  {
+   "call": "(self=RedisWrapper<ConnectionPool<Connection<host=localhost,port=13000,db=0>>>, key=b'_9c11359802a264e4|languages', generator=<function get_all_languages.<locals>.get_language_codes>, user=None, expires=False)",
+   "dump": {
+    "generator": "<function get_all_languages.<locals>.get_language_codes>",
+    "val": "None"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py",
+   "func": "get_value",
+   "lines": {
+    "77": "\t\t\tif not expires:",
+    "78": "\t\t\t\tif val is None and generator:",
+    "79": "\t\t\t\t\tval = generator()",
+    "80": "\t\t\t\t\tself.set_value(original_key, val, user=user)",
+    "81": ""
+   },
+   "lnum": 79
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. sql_list": "<bound method Database.sql_list of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/translate.py",
+   "func": "get_language_codes",
+   "lines": {
+    "854": "\t\"\"\"Returns all language codes ar, ch etc\"\"\"",
+    "855": "\tdef get_language_codes():",
+    "856": "\t\treturn frappe.db.sql_list('select name from tabLanguage')",
+    "857": "",
+    "858": "\tdef get_all_language_with_name():"
+   },
+   "lnum": 856
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, query='select name from tabLanguage', values=(), debug=False)",
+   "dump": {
+    "debug": "False",
+    "query": "'select name from tabLanguage'",
+    "r": "undefined",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. sql": "<bound method Database.sql of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "values": "()"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "sql_list",
+   "lines": {
+    "241": "\t\t\tdoctypes = frappe.db.sql_list(\"select name from DocType\")",
+    "242": "\t\t\"\"\"",
+    "243": "\t\treturn [r[0] for r in self.sql(query, values, debug=debug)]",
+    "244": "",
+    "245": "\tdef sql_ddl(self, query, values=(), debug=False):"
+   },
+   "lnum": 243
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, query='select name from tabLanguage', values=(), as_dict=0, as_list=0, formatted=0, debug=False, ignore_ddl=0, as_utf8=0, auto_commit=0, update=None, explain=False)",
+   "dump": {
+    "query": "'select name from tabLanguage'",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. _cursor": "<pymysql.cursors.Cursor object>",
+    "self._cursor. execute": "<bound method Cursor.execute of <pymysql.cursors.Cursor object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "sql",
+   "lines": {
+    "150": "",
+    "151": "\t\t\telse:",
+    "152": "\t\t\t\tself._cursor.execute(query)",
+    "153": "",
+    "154": "\t\t\t\tif frappe.flags.in_migrate:"
+   },
+   "lnum": 152
+  },
+  {
+   "call": "(self=<pymysql.cursors.Cursor object>, query='select name from tabLanguage', args=None)",
+   "dump": {
+    "query": "'select name from tabLanguage'",
+    "result": "undefined",
+    "self": "<pymysql.cursors.Cursor object>",
+    "self. _query": "<bound method Cursor._query of <pymysql.cursors.Cursor object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/cursors.py",
+   "func": "execute",
+   "lines": {
+    "146": "        query = self.mogrify(query, args)",
+    "147": "",
+    "148": "        result = self._query(query)",
+    "149": "        self._executed = query",
+    "150": "        return result"
+   },
+   "lnum": 148
+  },
+  {
+   "call": "(self=<pymysql.cursors.Cursor object>, q='select name from tabLanguage')",
+   "dump": {
+    "conn": "<pymysql.connections.Connection object>",
+    "conn. query": "<bound method Connection.query of <pymysql.connections.Connection object>>",
+    "q": "'select name from tabLanguage'"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/cursors.py",
+   "func": "_query",
+   "lines": {
+    "308": "        self._last_executed = q",
+    "309": "        self._clear_result()",
+    "310": "        conn.query(q)",
+    "311": "        self._do_get_result()",
+    "312": "        return self.rowcount"
+   },
+   "lnum": 310
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, sql=b'select name from tabLanguage', unbuffered=False)",
+   "dump": {
+    "self": "<pymysql.connections.Connection object>",
+    "self. _affected_rows": "0",
+    "self. _read_query_result": "<bound method Connection._read_query_result of <pymysql.connections.Connection object>>",
+    "unbuffered": "False"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "query",
+   "lines": {
+    "546": "            sql = sql.encode(self.encoding, \"surrogateescape\")",
+    "547": "        self._execute_command(COMMAND.COM_QUERY, sql)",
+    "548": "        self._affected_rows = self._read_query_result(unbuffered=unbuffered)",
+    "549": "        return self._affected_rows",
+    "550": ""
+   },
+   "lnum": 548
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, unbuffered=False)",
+   "dump": {
+    "result": "<pymysql.connections.MySQLResult object>",
+    "result. read": "<bound method MySQLResult.read of <pymysql.connections.MySQLResult object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "_read_query_result",
+   "lines": {
+    "773": "        else:",
+    "774": "            result = MySQLResult(self)",
+    "775": "            result.read()",
+    "776": "        self._result = result",
+    "777": "        if result.server_status is not None:"
+   },
+   "lnum": 775
+  },
+  {
+   "call": "(self=<pymysql.connections.MySQLResult object>)",
+   "dump": {
+    "first_packet": "undefined",
+    "self": "<pymysql.connections.MySQLResult object>",
+    "self. connection": "None",
+    "self.connection._read_packet": "undefined"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "read",
+   "lines": {
+    "1154": "    def read(self):",
+    "1155": "        try:",
+    "1156": "            first_packet = self.connection._read_packet()",
+    "1157": "",
+    "1158": "            if first_packet.is_ok_packet():"
+   },
+   "lnum": 1156
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, packet_type=<class 'pymysql.protocol.MysqlPacket'>)",
+   "dump": {
+    "packet": "<pymysql.protocol.MysqlPacket object>",
+    "packet. raise_for_error": "<bound method MysqlPacket.raise_for_error of <pymysql.protocol.MysqlPacket object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "_read_packet",
+   "lines": {
+    "723": "            if self._result is not None and self._result.unbuffered_active is True:",
+    "724": "                self._result.unbuffered_active = False",
+    "725": "            packet.raise_for_error()",
+    "726": "        return packet",
+    "727": ""
+   },
+   "lnum": 725
+  },
+  {
+   "call": "(self=<pymysql.protocol.MysqlPacket object>)",
+   "dump": {
+    "err. raise_mysql_exception": "<function raise_mysql_exception>",
+    "global err": "<module 'pymysql.err' from '/Users/andela/Dev/fr.../env/lib/python3.9/site-packages/pymysql/err.py'>",
+    "self": "<pymysql.protocol.MysqlPacket object>",
+    "self. _data": "b\"\\xffz\\x04#42S02Table '_9c11359802a264e4.tablanguage' doesn't exist\""
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/protocol.py",
+   "func": "raise_for_error",
+   "lines": {
+    "219": "        if DEBUG:",
+    "220": "            print(\"errno =\", errno)",
+    "221": "        err.raise_mysql_exception(self._data)",
+    "222": "",
+    "223": "    def dump(self):"
+   },
+   "lnum": 221
+  },
+  {
+   "call": "(data=b\"\\xffz\\x04#42S02Table '_9c11359802a264e4.tablanguage' doesn't exist\")",
+   "dump": {
+    "errno": "1146",
+    "errorclass": "<class 'pymysql.err.ProgrammingError'>",
+    "errval": "\"Table '_9c11359802a264e4.tablanguage' doesn't exist\""
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/err.py",
+   "func": "raise_mysql_exception",
+   "lines": {
+    "139": "    errval = data[9:].decode(\"utf-8\", \"replace\")",
+    "140": "    errorclass = error_map.get(errno)",
+    "141": "    if errorclass is None:",
+    "142": "        errorclass = InternalError if errno < 1000 else OperationalError",
+    "143": "    raise errorclass(errno, errval)"
+   },
+   "lnum": 143
+  }
+ ],
+ "locals": {
+  "data": "b\"\\xffz\\x04#42S02Table '_9c11359802a264e4.tablanguage' doesn't exist\"",
+  "errno": "1146",
+  "errorclass": "<class 'pymysql.err.ProgrammingError'>",
+  "errval": "Table '_9c11359802a264e4.tablanguage' doesn't exist"
+ },
+ "pyver": "Python 3.9.4: /Users/andela/Dev/frappe-bench/env/bin/python (prefix: /Users/andela/Dev/frappe-bench/env)",
+ "timestamp": "2021-05-11 11:12:05.228774",
+ "traceback": "Traceback (most recent call last):\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/app.py\", line 54, in application\n    init_request(request)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/app.py\", line 138, in init_request\n    frappe.local.http_request = frappe.auth.HTTPRequest()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py\", line 43, in __init__\n    self.set_lang()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py\", line 87, in set_lang\n    frappe.local.lang = guess_language()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/translate.py\", line 35, in guess_language\n    lang_list = get_all_languages() or []\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/translate.py\", line 867, in get_all_languages\n    return frappe.cache().get_value('languages', get_language_codes)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py\", line 79, in get_value\n    val = generator()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/translate.py\", line 856, in get_language_codes\n    return frappe.db.sql_list('select name from tabLanguage')\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py\", line 243, in sql_list\n    return [r[0] for r in self.sql(query, values, debug=debug)]\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py\", line 152, in sql\n    self._cursor.execute(query)\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/cursors.py\", line 148, in execute\n    result = self._query(query)\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/cursors.py\", line 310, in _query\n    conn.query(q)\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 548, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 775, in _read_query_result\n    result.read()\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 1156, in read\n    first_packet = self.connection._read_packet()\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 725, in _read_packet\n    packet.raise_for_error()\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\npymysql.err.ProgrammingError: (1146, \"Table '_9c11359802a264e4.tablanguage' doesn't exist\")\n"
+}

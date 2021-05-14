@@ -1,0 +1,1239 @@
+2021-05-11 08:14:01,699 DEBUG scheduler Queued events for site companies
+2021-05-11 08:15:02,066 DEBUG scheduler Queued events for site companies
+2021-05-11 08:15:03,236 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for companies
+2021-05-11 08:15:03,558 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for companies
+2021-05-11 08:15:03,635 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for companies
+2021-05-11 08:15:03,920 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for companies
+2021-05-11 08:16:02,478 DEBUG scheduler Queued events for site companies
+2021-05-11 08:16:03,642 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:16:03,748 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:16:03,820 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:16:04,097 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:16:04,171 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:16:04,373 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:16:04,444 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:16:04,664 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:16:04,736 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 08:16:04,935 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 08:16:05,007 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for companies
+2021-05-11 08:16:05,296 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for companies
+2021-05-11 08:17:02,860 DEBUG scheduler Queued events for site companies
+2021-05-11 08:18:03,196 DEBUG scheduler Queued events for site companies
+2021-05-11 08:19:03,523 DEBUG scheduler Queued events for site companies
+2021-05-11 08:20:04,017 DEBUG scheduler Queued events for site companies
+2021-05-11 08:20:05,179 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:20:05,284 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:20:05,354 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:20:05,699 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:20:05,768 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:20:05,969 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:20:06,040 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:20:06,249 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:20:06,323 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 08:20:06,522 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 08:21:04,457 DEBUG scheduler Queued events for site companies
+2021-05-11 08:22:04,925 DEBUG scheduler Queued events for site companies
+2021-05-11 08:23:05,337 DEBUG scheduler Queued events for site companies
+2021-05-11 08:24:05,798 DEBUG scheduler Queued events for site companies
+2021-05-11 08:24:06,960 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:24:07,078 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:24:07,148 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:24:07,458 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:24:07,528 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:24:07,739 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:24:07,809 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:24:08,025 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:24:08,097 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 08:24:08,295 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 08:25:06,241 DEBUG scheduler Queued events for site companies
+2021-05-11 08:26:06,565 DEBUG scheduler Queued events for site companies
+2021-05-11 08:27:07,016 DEBUG scheduler Queued events for site companies
+2021-05-11 08:28:07,500 DEBUG scheduler Queued events for site companies
+2021-05-11 08:28:08,665 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:28:08,754 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:28:08,826 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:28:09,085 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:28:09,155 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:28:09,357 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:28:09,427 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:28:09,639 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:28:09,709 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 08:28:09,906 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 08:29:07,787 DEBUG scheduler Queued events for site companies
+2021-05-11 08:30:08,206 DEBUG scheduler Queued events for site companies
+2021-05-11 08:30:09,372 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for companies
+2021-05-11 08:30:09,712 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for companies
+2021-05-11 08:30:09,788 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for companies
+2021-05-11 08:30:10,131 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for companies
+2021-05-11 08:30:10,211 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for companies
+2021-05-11 08:30:10,506 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for companies
+2021-05-11 08:31:08,620 DEBUG scheduler Queued events for site companies
+2021-05-11 08:32:09,028 DEBUG scheduler Queued events for site companies
+2021-05-11 08:32:10,181 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:32:10,272 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:32:10,342 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:32:10,610 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:32:10,682 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:32:10,884 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:32:10,957 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:32:11,169 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:32:11,241 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 08:32:11,441 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 08:33:09,528 DEBUG scheduler Queued events for site companies
+2021-05-11 08:34:09,934 DEBUG scheduler Queued events for site companies
+2021-05-11 08:35:10,311 DEBUG scheduler Queued events for site companies
+2021-05-11 08:36:10,750 DEBUG scheduler Queued events for site companies
+2021-05-11 08:36:11,906 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:36:12,003 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:36:12,074 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:36:12,424 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:36:12,497 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:36:12,699 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:36:12,771 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:36:12,985 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:36:13,057 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 08:36:13,262 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 08:37:11,148 DEBUG scheduler Queued events for site companies
+2021-05-11 08:38:11,604 DEBUG scheduler Queued events for site companies
+2021-05-11 08:39:12,056 DEBUG scheduler Queued events for site companies
+2021-05-11 08:40:12,524 DEBUG scheduler Queued events for site companies
+2021-05-11 08:40:13,686 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:40:13,777 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:40:13,848 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:40:14,111 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:40:14,183 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:40:14,384 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:40:14,456 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:40:14,670 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:40:14,742 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 08:40:14,939 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 08:41:12,886 DEBUG scheduler Queued events for site companies
+2021-05-11 08:42:13,335 DEBUG scheduler Queued events for site companies
+2021-05-11 08:43:13,745 DEBUG scheduler Queued events for site companies
+2021-05-11 08:44:14,204 DEBUG scheduler Queued events for site companies
+2021-05-11 08:44:15,377 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:44:15,471 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:44:15,540 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:44:15,802 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:44:15,872 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:44:16,076 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:44:16,148 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:44:16,360 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:44:16,431 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 08:44:16,634 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 08:45:14,695 DEBUG scheduler Queued events for site companies
+2021-05-11 08:45:15,858 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for companies
+2021-05-11 08:45:16,152 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for companies
+2021-05-11 08:45:16,227 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for companies
+2021-05-11 08:45:16,547 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for companies
+2021-05-11 08:45:16,627 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for companies
+2021-05-11 08:45:16,912 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for companies
+2021-05-11 08:46:14,960 DEBUG scheduler Queued events for site companies
+2021-05-11 08:47:15,310 DEBUG scheduler Queued events for site companies
+2021-05-11 08:48:15,674 DEBUG scheduler Queued events for site companies
+2021-05-11 08:48:16,850 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:48:16,944 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:48:17,018 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:48:17,307 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:48:17,380 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:48:17,599 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:48:17,671 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:48:17,889 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:48:17,961 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 08:48:18,167 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 08:49:16,062 DEBUG scheduler Queued events for site companies
+2021-05-11 08:50:16,424 DEBUG scheduler Queued events for site companies
+2021-05-11 08:51:16,805 DEBUG scheduler Queued events for site companies
+2021-05-11 08:52:17,203 DEBUG scheduler Queued events for site companies
+2021-05-11 08:52:18,377 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:52:18,475 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:52:18,549 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:52:18,821 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:52:18,895 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:52:19,113 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:52:19,186 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:52:19,406 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:52:19,482 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 08:52:19,692 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 08:53:17,600 DEBUG scheduler Queued events for site companies
+2021-05-11 08:54:18,211 DEBUG scheduler Queued events for site companies
+2021-05-11 08:54:19,300 INFO scheduler Scheduled Job Start: frappe.monitor.flush for companies
+2021-05-11 08:54:19,399 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for companies
+2021-05-11 08:55:18,502 DEBUG scheduler Queued events for site companies
+2021-05-11 08:56:18,883 DEBUG scheduler Queued events for site companies
+2021-05-11 08:56:20,097 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:56:20,302 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 08:56:20,376 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:56:20,812 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 08:56:20,889 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:56:21,176 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 08:56:21,250 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:56:21,478 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 08:56:21,555 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 08:56:21,790 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 08:57:19,279 DEBUG scheduler Queued events for site companies
+2021-05-11 08:57:19,412 INFO scheduler Scheduled Job Start: frappe.monitor.flush for companies
+2021-05-11 08:57:19,607 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for companies
+2021-05-11 08:58:19,557 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 08:59:20,797 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:00:22,025 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:01:23,340 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:02:24,608 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:03:25,783 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:04:26,990 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:05:28,258 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:06:29,506 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:07:30,760 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:08:31,922 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:09:33,195 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:10:34,470 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:11:35,777 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:12:37,076 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:13:38,416 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:14:39,687 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:15:40,997 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:16:42,394 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:22:05,052 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:23:06,545 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:24:07,737 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:25:08,965 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:26:10,245 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:27:11,429 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:28:12,685 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:29:13,919 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:30:15,087 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:31:16,305 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:32:17,553 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:33:18,771 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 10:18:38,037 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 10:24:27,129 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 10:25:29,024 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 10:40:04,142 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 10:41:05,602 ERROR scheduler Exception in Enqueue Events for Site companies
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 11:10:15,313 DEBUG scheduler Queued events for site companies
+2021-05-11 11:10:15,315 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for companies
+2021-05-11 11:10:16,842 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for companies
+2021-05-11 11:10:16,955 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for companies
+2021-05-11 11:10:17,645 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for companies
+2021-05-11 11:10:17,727 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for companies
+2021-05-11 11:10:18,101 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for companies
+2021-05-11 11:10:18,256 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for companies
+2021-05-11 11:10:18,545 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for companies
+2021-05-11 11:10:18,643 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for companies
+2021-05-11 11:10:18,971 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for companies
+2021-05-11 11:10:19,068 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for companies
+2021-05-11 11:10:19,357 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for companies
+2021-05-11 11:10:19,456 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for companies
+2021-05-11 11:10:19,732 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for companies
+2021-05-11 11:10:19,823 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for companies
+2021-05-11 11:10:20,111 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for companies
+2021-05-11 11:10:20,204 INFO scheduler Scheduled Job Start: frappe.monitor.flush for companies
+2021-05-11 11:10:20,301 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for companies
+2021-05-11 11:10:20,378 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 11:10:20,470 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 11:10:20,559 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 11:10:20,945 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 11:10:21,023 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 11:10:21,346 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 11:10:21,429 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 11:10:21,658 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 11:10:21,735 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 11:10:21,938 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 11:10:22,015 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for companies
+2021-05-11 11:10:22,371 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for companies
+2021-05-11 11:10:22,463 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for companies
+2021-05-11 11:10:22,914 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for companies
+2021-05-11 11:10:23,005 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for companies
+2021-05-11 11:10:23,419 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for companies
+2021-05-11 11:11:16,142 DEBUG scheduler Queued events for site companies
+2021-05-11 11:12:16,491 DEBUG scheduler Queued events for site companies
+2021-05-11 11:12:16,527 INFO scheduler Scheduled Job Start: frappe.monitor.flush for companies
+2021-05-11 11:12:16,647 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for companies
+2021-05-11 11:12:16,733 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 11:12:16,837 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 11:12:16,920 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 11:12:17,195 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 11:12:17,289 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 11:12:17,505 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 11:12:17,596 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 11:12:17,823 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 11:12:17,907 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 11:12:18,118 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 11:13:16,884 DEBUG scheduler Queued events for site companies
+2021-05-11 11:14:17,223 DEBUG scheduler Queued events for site companies
+2021-05-11 11:15:17,551 DEBUG scheduler Queued events for site companies
+2021-05-11 11:15:17,674 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for companies
+2021-05-11 11:15:18,377 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for companies
+2021-05-11 11:16:17,962 DEBUG scheduler Queued events for site companies

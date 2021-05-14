@@ -2753,3 +2753,424 @@ objc[953]: +[NSValue initialize] may have been in progress in another thread whe
 objc[953]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
 objc[979]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
 objc[979]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Exception in thread Thread-1:
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+        self.run()
+self.run()  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+        pubsub.get_message(ignore_subscribe_messages=True,pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+        return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+    self._read_from_socket(timeout=timeout,redis.exceptions
+.  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+ConnectionErrorraise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR): Connection closed by server.
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+
+redis.exceptionsredis.exceptions.ConnectionError.: ConnectionErrorConnection closed by server.: 
+Connection closed by server.
+objc[4164]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
+objc[4164]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+objc[4201]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
+objc[4201]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 198, in _read_from_socket
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    data = recv(self._sock, socket_read_size)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 101, in <module>
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    main()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 782, in main
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    rv = self.invoke(ctx)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 178, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py", line 621, in work
+    self.register_death()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 4019, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3977, in parse_response
+    result = Redis.parse_response(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (54, 'Connection reset by peer')
+Exception in thread Exception in thread Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+        response = self.parse_response(block=False, timeout=timeout)return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+objc[2666]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
+objc[2666]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Exception in thread Thread-1:
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+objc[1560]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
+objc[1560]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+objc[1609]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
+objc[1609]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+objc[1640]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
+objc[1640]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+objc[17113]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
+objc[17113]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+objc[17160]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
+objc[17160]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+objc[17191]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
+objc[17191]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+Exception in thread Exception in thread Thread-1:
+Thread-1:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 954, in _bootstrap_inner
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3718, in run
+        pubsub.get_message(ignore_subscribe_messages=True,
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+pubsub.get_message(ignore_subscribe_messages=True,  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._parser.can_read(timeout)
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 321, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    self._read_from_socket(timeout=timeout,
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.    
+raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+objc[5340]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
+objc[5340]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+objc[5368]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
+objc[5368]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+objc[5398]: +[NSValue initialize] may have been in progress in another thread when fork() was called.
+objc[5398]: +[NSValue initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.

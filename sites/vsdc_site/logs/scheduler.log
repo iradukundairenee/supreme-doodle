@@ -1,0 +1,16 @@
+2021-05-14 21:09:18,244 DEBUG scheduler Queued events for site vsdc_site
+2021-05-14 21:10:18,909 DEBUG scheduler Queued events for site vsdc_site
+2021-05-14 21:11:19,371 DEBUG scheduler Queued events for site vsdc_site
+2021-05-14 21:12:19,901 DEBUG scheduler Queued events for site vsdc_site
+2021-05-14 21:12:21,865 INFO scheduler Scheduled Job Start: frappe.monitor.flush for vsdc_site
+2021-05-14 21:12:21,952 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for vsdc_site
+2021-05-14 21:12:22,020 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for vsdc_site
+2021-05-14 21:12:22,110 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for vsdc_site
+2021-05-14 21:12:22,179 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for vsdc_site
+2021-05-14 21:12:22,441 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for vsdc_site
+2021-05-14 21:12:22,511 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for vsdc_site
+2021-05-14 21:12:22,712 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for vsdc_site
+2021-05-14 21:12:22,782 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for vsdc_site
+2021-05-14 21:12:22,993 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for vsdc_site
+2021-05-14 21:12:23,062 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for vsdc_site
+2021-05-14 21:12:23,259 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for vsdc_site

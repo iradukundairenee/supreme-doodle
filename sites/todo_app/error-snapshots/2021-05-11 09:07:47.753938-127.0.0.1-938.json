@@ -1,0 +1,632 @@
+{
+ "etype": "OperationalError",
+ "evalue": "OperationalError(2013, 'Lost connection to MySQL server during query')",
+ "exception": {
+  "args": [
+   40,
+   50,
+   48,
+   49,
+   51,
+   44,
+   32,
+   39,
+   76,
+   111,
+   115,
+   116,
+   32,
+   99,
+   111,
+   110,
+   110,
+   101,
+   99,
+   116,
+   105,
+   111,
+   110,
+   32,
+   116,
+   111,
+   32,
+   77,
+   121,
+   83,
+   81,
+   76,
+   32,
+   115,
+   101,
+   114,
+   118,
+   101,
+   114,
+   32,
+   100,
+   117,
+   114,
+   105,
+   110,
+   103,
+   32,
+   113,
+   117,
+   101,
+   114,
+   121,
+   39,
+   41
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   79,
+   112,
+   101,
+   114,
+   97,
+   116,
+   105,
+   111,
+   110,
+   97,
+   108,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'http://todo:8000/' [GET]>)",
+   "dump": {
+    "global init_request": "<function init_request>",
+    "request": "<Request 'http://todo:8000/' [GET]>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "52": "\t\trollback = True",
+    "53": "",
+    "54": "\t\tinit_request(request)",
+    "55": "",
+    "56": "\t\tfrappe.recorder.record()"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "(request=<Request 'http://todo:8000/' [GET]>)",
+   "dump": {
+    "frappe. auth": "<module 'frappe.auth' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py'>",
+    "frappe. local": "<werkzeug.local.Local object>",
+    "frappe.auth. HTTPRequest": "<class 'frappe.auth.HTTPRequest'>",
+    "frappe.local.http_request": "undefined",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "init_request",
+   "lines": {
+    "136": "",
+    "137": "\tif request.method != \"OPTIONS\":",
+    "138": "\t\tfrappe.local.http_request = frappe.auth.HTTPRequest()",
+    "139": "",
+    "140": "def process_response(response):"
+   },
+   "lnum": 138
+  },
+  {
+   "call": "(self=<frappe.auth.HTTPRequest object>)",
+   "dump": {
+    "frappe. local": "<werkzeug.local.Local object>",
+    "frappe.local.login_manager": "undefined",
+    "global LoginManager": "<class 'frappe.auth.LoginManager'>",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py",
+   "func": "__init__",
+   "lines": {
+    "50": "",
+    "51": "\t\t# login",
+    "52": "\t\tfrappe.local.login_manager = LoginManager()",
+    "53": "",
+    "54": "\t\tif frappe.form_dict._lang:"
+   },
+   "lnum": 52
+  },
+  {
+   "call": "(self=<frappe.auth.LoginManager object>)",
+   "dump": {
+    "resume": "undefined",
+    "self": "<frappe.auth.LoginManager object>",
+    "self. make_session": "<bound method LoginManager.make_session of <frappe.auth.LoginManager object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py",
+   "func": "__init__",
+   "lines": {
+    "112": "\t\t\ttry:",
+    "113": "\t\t\t\tself.resume = True",
+    "114": "\t\t\t\tself.make_session(resume=True)",
+    "115": "\t\t\t\tself.get_user_info()",
+    "116": "\t\t\t\tself.set_user_info(resume=True)"
+   },
+   "lnum": 114
+  },
+  {
+   "call": "(self=<frappe.auth.LoginManager object>, resume=True)",
+   "dump": {
+    "frappe. local": "<werkzeug.local.Local object>",
+    "frappe.local.session_obj": "undefined",
+    "full_name": "undefined",
+    "global Session": "<class 'frappe.sessions.Session'>",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "resume": "True",
+    "self": "<frappe.auth.LoginManager object>",
+    "self. full_name": "None",
+    "self. user": "None",
+    "self. user_type": "None",
+    "user": "undefined",
+    "user_type": "undefined"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py",
+   "func": "make_session",
+   "lines": {
+    "193": "\tdef make_session(self, resume=False):",
+    "194": "\t\t# start session",
+    "195": "\t\tfrappe.local.session_obj = Session(user=self.user, resume=resume,",
+    "196": "\t\t\tfull_name=self.full_name, user_type=self.user_type)",
+    "197": ""
+   },
+   "lnum": 195
+  },
+  {
+   "call": "(self=<frappe.sessions.Session object>, user=None, resume=True, full_name=None, user_type=None)",
+   "dump": {
+    "self": "<frappe.sessions.Session object>",
+    "self. resume": "<bound method Session.resume of <frappe.sessions.Session object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/sessions.py",
+   "func": "__init__",
+   "lines": {
+    "187": "",
+    "188": "\t\tif resume:",
+    "189": "\t\t\tself.resume()",
+    "190": "",
+    "191": "\t\telse:"
+   },
+   "lnum": 189
+  },
+  {
+   "call": "(self=<frappe.sessions.Session object>)",
+   "dump": {
+    "self": "<frappe.sessions.Session object>",
+    "self. user": "'Guest'",
+    "validate_ip_address": "<function validate_ip_address>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/sessions.py",
+   "func": "resume",
+   "lines": {
+    "254": "\t\t\tself.data.update({'data': data, 'user':data.user, 'sid': self.sid})",
+    "255": "\t\t\tself.user = data.user",
+    "256": "\t\t\tvalidate_ip_address(self.user)",
+    "257": "\t\t\tself.device = data.device",
+    "258": "\t\telse:"
+   },
+   "lnum": 256
+  },
+  {
+   "call": "(user='Guest')",
+   "dump": {
+    "frappe. flags": "{'currently_saving': [], 'redirect_location': ''...: False, 'has_dataurl': False, 'new_site': False}",
+    "frappe. get_cached_doc": "<function get_cached_doc>",
+    "frappe. get_doc": "<function get_doc>",
+    "frappe.flags. in_test": "False",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "user": "'Guest'"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py",
+   "func": "validate_ip_address",
+   "lines": {
+    "378": "def validate_ip_address(user):",
+    "379": "\t\"\"\"check if IP Address is valid\"\"\"",
+    "380": "\tuser = frappe.get_cached_doc(\"User\", user) if not frappe.flags.in_test else frappe.get_doc(\"User\", user)",
+    "381": "\tip_list = user.get_restricted_ip_list()",
+    "382": "\tif not ip_list:"
+   },
+   "lnum": 380
+  },
+  {
+   "call": "(*args=('User', 'Guest'), **kwargs={})",
+   "dump": {
+    "args": "('User', 'Guest')",
+    "doc": "None",
+    "global get_doc": "<function get_doc>",
+    "kwargs": "{}"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_cached_doc",
+   "lines": {
+    "800": "",
+    "801": "\t# database",
+    "802": "\tdoc = get_doc(*args, **kwargs)",
+    "803": "",
+    "804": "\treturn doc"
+   },
+   "lnum": 802
+  },
+  {
+   "call": "(*args=('User', 'Guest'), **kwargs={})",
+   "dump": {
+    "args": "('User', 'Guest')",
+    "doc": "undefined",
+    "frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "frappe. model": "<module 'frappe.model' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/__init__.py'>",
+    "frappe.model. document": "<module 'frappe.model.document' from '/Users/and...appe-bench/apps/frappe/frappe/model/document.py'>",
+    "frappe.model.document. get_doc": "<function get_doc>",
+    "kwargs": "{}"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_doc",
+   "lines": {
+    "843": "\t\"\"\"",
+    "844": "\timport frappe.model.document",
+    "845": "\tdoc = frappe.model.document.get_doc(*args, **kwargs)",
+    "846": "",
+    "847": "\t# set in cache"
+   },
+   "lnum": 845
+  },
+  {
+   "call": "(*args=('User', 'Guest'), **kwargs={})",
+   "dump": {
+    "controller": "undefined",
+    "doctype": "'User'",
+    "global get_controller": "<function get_controller>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "get_doc",
+   "lines": {
+    "70": "\t\t\traise ValueError('\"doctype\" is a required key')",
+    "71": "",
+    "72": "\tcontroller = get_controller(doctype)",
+    "73": "\tif controller:",
+    "74": "\t\treturn controller(*args, **kwargs)"
+   },
+   "lnum": 72
+  },
+  {
+   "call": "(doctype='User')",
+   "dump": {
+    "_get_controller": "<function get_controller.<locals>._get_controller>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/base_document.py",
+   "func": "get_controller",
+   "lines": {
+    "67": "",
+    "68": "\tif frappe.local.dev_server:",
+    "69": "\t\treturn _get_controller()",
+    "70": "",
+    "71": "\tsite_controllers = frappe.controllers.setdefault(frappe.local.site, {})"
+   },
+   "lnum": 69
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cache": "undefined",
+    "custom": "undefined",
+    "doctype": "'User'",
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. get_value": "<bound method Database.get_value of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "module_name": "undefined"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/base_document.py",
+   "func": "_get_controller",
+   "lines": {
+    "35": "\t\tfrom frappe.utils.nestedset import NestedSet",
+    "36": "",
+    "37": "\t\tmodule_name, custom = frappe.db.get_value(\"DocType\", doctype, (\"module\", \"custom\"), cache=True) \\",
+    "38": "\t\t\tor [\"Core\", False]",
+    "39": ""
+   },
+   "lnum": 37
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, doctype='DocType', filters='User', fieldname=('module', 'custom'), ignore=None, as_dict=False, debug=False, order_by=None, cache=True, for_update=False)",
+   "dump": {
+    "as_dict": "False",
+    "cache": "True",
+    "debug": "False",
+    "doctype": "'DocType'",
+    "fieldname": "('module', 'custom')",
+    "filters": "'User'",
+    "for_update": "False",
+    "ignore": "None",
+    "order_by": "None",
+    "ret": "undefined",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. get_values": "<bound method Database.get_values of <frappe.database.mariadb.database.MariaDBDatabase object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "get_value",
+   "lines": {
+    "403": "\t\t\"\"\"",
+    "404": "",
+    "405": "\t\tret = self.get_values(doctype, filters, fieldname, ignore, as_dict, debug,",
+    "406": "\t\t\torder_by, cache=cache, for_update=for_update)",
+    "407": ""
+   },
+   "lnum": 405
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, doctype='DocType', filters='User', fieldname=('module', 'custom'), ignore=None, as_dict=False, debug=False, order_by='modified desc', update=None, cache=True, for_update=False)",
+   "dump": {
+    "as_dict": "False",
+    "debug": "False",
+    "doctype": "'DocType'",
+    "fields": "('module', 'custom')",
+    "filters": "'User'",
+    "for_update": "False",
+    "order_by": "'modified desc'",
+    "out": "None",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. _get_values_from_table": "<bound method Database._get_values_from_table of...atabase.mariadb.database.MariaDBDatabase object>>",
+    "update": "None"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "get_values",
+   "lines": {
+    "448": "\t\t\tif (filters is not None) and (filters!=doctype or doctype==\"DocType\"):",
+    "449": "\t\t\t\ttry:",
+    "450": "\t\t\t\t\tout = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update, for_update=for_update)",
+    "451": "\t\t\t\texcept Exception as e:",
+    "452": "\t\t\t\t\tif ignore and (frappe.db.is_missing_column(e) or frappe.db.is_table_missing(e)):"
+   },
+   "lnum": 450
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, fields=('module', 'custom'), filters='User', doctype='DocType', as_dict=False, debug=False, order_by='order by modified desc', update=None, for_update=False)",
+   "dump": {
+    "\n.format": "undefined",
+    "as_dict": "False",
+    "conditions": "'`name` = %(name)s'",
+    "debug": "False",
+    "doctype": "'DocType'",
+    "fields": "('module', 'custom')",
+    "fl": "'`module`, `custom`'",
+    "for_update": "False",
+    "order_by": "'order by modified desc'",
+    "r": "undefined",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. sql": "<bound method Database.sql of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "update": "None",
+    "values": "{'name': 'User'}",
+    "where": "undefined"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "_get_values_from_table",
+   "lines": {
+    "595": "\t\torder_by = (\"order by \" + order_by) if order_by else \"\"",
+    "596": "",
+    "597": "\t\tr = self.sql(\"select {fields} from `tab{doctype}` {where} {conditions} {order_by} {for_update}\"",
+    "598": "\t\t\t.format(",
+    "599": "\t\t\t\tfor_update = 'for update' if for_update else '',"
+   },
+   "lnum": 597
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, query='select `module`, `custom` from `tabDocType` where `name` = %(name)s order by modified desc ', values={'name': 'User'}, as_dict=False, as_list=0, formatted=0, debug=False, ignore_ddl=0, as_utf8=0, auto_commit=0, update=None, explain=False)",
+   "dump": {
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. connect": "<bound method Database.connect of <frappe.database.mariadb.database.MariaDBDatabase object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "sql",
+   "lines": {
+    "119": "",
+    "120": "\t\tif not self._conn:",
+    "121": "\t\t\tself.connect()",
+    "122": "",
+    "123": "\t\t# in transaction validations"
+   },
+   "lnum": 121
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>)",
+   "dump": {
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. _conn": "None",
+    "self. get_connection": "<bound method MariaDBDatabase.get_connection of ...atabase.mariadb.database.MariaDBDatabase object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "connect",
+   "lines": {
+    "72": "\t\t\"\"\"Connects to a database as set in `site_config.json`.\"\"\"",
+    "73": "\t\tself.cur_db_name = self.user",
+    "74": "\t\tself._conn = self.get_connection()",
+    "75": "\t\tself._cursor = self._conn.cursor()",
+    "76": "\t\tfrappe.local.rollback_observers = []"
+   },
+   "lnum": 74
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>)",
+   "dump": {
+    "charset": "undefined",
+    "conn": "undefined",
+    "conv": "undefined",
+    "frappe. conf": "{'auto_update': False, 'background_workers': 1, ...sword': 'Oe2ihKT0Dw9Fv3iA', 'db_type': 'mariadb'}",
+    "frappe.conf. local_infile": "None",
+    "global conversions": "{<class 'bool'>: <function escape_bool>, <class 'int'>: <function escape_int>, <class 'float'>: <function escape_float>, <class 'str'>: <function escape_str>, <class 'bytes'>: <function escape_bytes>, <class 'tuple'>: <function escape_sequence>, <class 'list'>: <function escape_sequence>, <class 'set'>: <function escape_sequence>, <class 'frozenset'>: <function escape_sequence>, <class 'dict'>: <function escape_dict>, ...}",
+    "global frappe": "<module 'frappe' from '/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "global pymysql": "<module 'pymysql' from '/Users/andela/Dev/frappe...lib/python3.9/site-packages/pymysql/__init__.py'>",
+    "host": "undefined",
+    "local_infile": "undefined",
+    "password": "undefined",
+    "port": "undefined",
+    "pymysql. connect": "<class 'pymysql.connections.Connection'>",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. host": "'127.0.0.1'",
+    "self. password": "'Oe2ihKT0Dw9Fv3iA'",
+    "self. port": "''",
+    "self. user": "'_ffd1aacb0b5498e6'",
+    "ssl": "undefined",
+    "ssl_params": "undefined",
+    "use_unicode": "undefined",
+    "user": "undefined",
+    "usessl": "0"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py",
+   "func": "get_connection",
+   "lines": {
+    "72": "\t\t})",
+    "73": "",
+    "74": "\t\tconn = pymysql.connect(",
+    "75": "\t\t\tuser=self.user or '',",
+    "76": "\t\t\tpassword=self.password or '',"
+   },
+   "lnum": 74
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, user='_ffd1aacb0b5498e6', password='Oe2ihKT0Dw9Fv3iA', host='127.0.0.1', database=None, unix_socket=None, port='', charset='utf8mb4', sql_mode=None, read_default_file=None, conv={<class 'bool'>: <function escape_bool>, <class 'int'>: <function escape_int>, <class 'float'>: <function escape_float>, <class 'str'>: <function escape_str>, <class 'bytes'>: <function escape_bytes>, <class 'tuple'>: <function escape_sequence>, <class 'list'>: <function escape_sequence>, <class 'set'>: <function escape_sequence>, <class 'frozenset'>: <function escape_sequence>, <class 'dict'>: <function escape_dict>, ...}, use_unicode=True, client_flag=3842565, cursorclass=<class 'pymysql.cursors.Cursor'>, init_command=None, connect_timeout=10, read_default_group=None, autocommit=False, local_infile=None, max_allowed_packet=16777216, defer_connect=False, auth_plugin_map=None, read_timeout=None, write_timeout=None, bind_address=None, binary_prefix=False, program_name=None, server_public_key=None, ssl=None, ssl_ca=None, ssl_cert=None, ssl_disabled=None, ssl_key=None, ssl_verify_cert=None, ssl_verify_identity=None, compress=None, named_pipe=None, passwd=None, db=None)",
+   "dump": {
+    "self": "<pymysql.connections.Connection object>",
+    "self. connect": "<bound method Connection.connect of <pymysql.connections.Connection object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "__init__",
+   "lines": {
+    "351": "            self._sock = None",
+    "352": "        else:",
+    "353": "            self.connect()",
+    "354": "",
+    "355": "    def __enter__(self):"
+   },
+   "lnum": 353
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, sock=<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6>)",
+   "dump": {
+    "self": "<pymysql.connections.Connection object>",
+    "self. _get_server_information": "<bound method Connection._get_server_information of <pymysql.connections.Connection object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "connect",
+   "lines": {
+    "630": "            self._next_seq_id = 0",
+    "631": "",
+    "632": "            self._get_server_information()",
+    "633": "            self._request_authentication()",
+    "634": ""
+   },
+   "lnum": 632
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>)",
+   "dump": {
+    "packet": "undefined",
+    "self": "<pymysql.connections.Connection object>",
+    "self. _read_packet": "<bound method Connection._read_packet of <pymysql.connections.Connection object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "_get_server_information",
+   "lines": {
+    "1053": "    def _get_server_information(self):",
+    "1054": "        i = 0",
+    "1055": "        packet = self._read_packet()",
+    "1056": "        data = packet.get_all_data()",
+    "1057": ""
+   },
+   "lnum": 1055
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, packet_type=<class 'pymysql.protocol.MysqlPacket'>)",
+   "dump": {
+    "packet_header": "undefined",
+    "self": "<pymysql.connections.Connection object>",
+    "self. _read_bytes": "<bound method Connection._read_bytes of <pymysql.connections.Connection object>>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "_read_packet",
+   "lines": {
+    "690": "        buff = bytearray()",
+    "691": "        while True:",
+    "692": "            packet_header = self._read_bytes(4)",
+    "693": "            # if DEBUG: dump_packet(packet_header)",
+    "694": ""
+   },
+   "lnum": 692
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, num_bytes=4)",
+   "dump": {
+    "CR. CR_SERVER_LOST": "2013",
+    "err. OperationalError": "<class 'pymysql.err.OperationalError'>",
+    "global CR": "<module 'pymysql.constants.CR' from '/Users/ande...python3.9/site-packages/pymysql/constants/CR.py'>",
+    "global err": "<module 'pymysql.err' from '/Users/andela/Dev/fr.../env/lib/python3.9/site-packages/pymysql/err.py'>"
+   },
+   "file": "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py",
+   "func": "_read_bytes",
+   "lines": {
+    "746": "        if len(data) < num_bytes:",
+    "747": "            self._force_close()",
+    "748": "            raise err.OperationalError(",
+    "749": "                CR.CR_SERVER_LOST, \"Lost connection to MySQL server during query\"",
+    "750": "            )"
+   },
+   "lnum": 748
+  }
+ ],
+ "locals": {
+  "data": "b''",
+  "num_bytes": "4",
+  "self": "<pymysql.connections.Connection object>"
+ },
+ "pyver": "Python 3.9.4: /Users/andela/Dev/frappe-bench/env/bin/python (prefix: /Users/andela/Dev/frappe-bench/env)",
+ "timestamp": "2021-05-11 09:07:47.754123",
+ "traceback": "Traceback (most recent call last):\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/app.py\", line 54, in application\n    init_request(request)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/app.py\", line 138, in init_request\n    frappe.local.http_request = frappe.auth.HTTPRequest()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py\", line 52, in __init__\n    frappe.local.login_manager = LoginManager()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py\", line 114, in __init__\n    self.make_session(resume=True)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py\", line 195, in make_session\n    frappe.local.session_obj = Session(user=self.user, resume=resume,\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/sessions.py\", line 189, in __init__\n    self.resume()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/sessions.py\", line 256, in resume\n    validate_ip_address(self.user)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/auth.py\", line 380, in validate_ip_address\n    user = frappe.get_cached_doc(\"User\", user) if not frappe.flags.in_test else frappe.get_doc(\"User\", user)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py\", line 802, in get_cached_doc\n    doc = get_doc(*args, **kwargs)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/__init__.py\", line 845, in get_doc\n    doc = frappe.model.document.get_doc(*args, **kwargs)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/document.py\", line 72, in get_doc\n    controller = get_controller(doctype)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/base_document.py\", line 69, in get_controller\n    return _get_controller()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/model/base_document.py\", line 37, in _get_controller\n    module_name, custom = frappe.db.get_value(\"DocType\", doctype, (\"module\", \"custom\"), cache=True) \\\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py\", line 405, in get_value\n    ret = self.get_values(doctype, filters, fieldname, ignore, as_dict, debug,\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py\", line 450, in get_values\n    out = self._get_values_from_table(fields, filters, doctype, as_dict, debug, order_by, update, for_update=for_update)\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py\", line 597, in _get_values_from_table\n    r = self.sql(\"select {fields} from `tab{doctype}` {where} {conditions} {order_by} {for_update}\"\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py\", line 121, in sql\n    self.connect()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py\", line 74, in connect\n    self._conn = self.get_connection()\n  File \"/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py\", line 74, in get_connection\n    conn = pymysql.connect(\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 353, in __init__\n    self.connect()\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 632, in connect\n    self._get_server_information()\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 1055, in _get_server_information\n    packet = self._read_packet()\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 692, in _read_packet\n    packet_header = self._read_bytes(4)\n  File \"/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py\", line 748, in _read_bytes\n    raise err.OperationalError(\npymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')\n"
+}

@@ -1,0 +1,16 @@
+2021-05-11 11:15:18,472 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for companies
+2021-05-11 11:15:18,921 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for companies
+2021-05-11 11:15:19,038 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for companies
+2021-05-11 11:15:19,409 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for companies
+2021-05-11 11:16:18,006 INFO scheduler Scheduled Job Start: frappe.monitor.flush for companies
+2021-05-11 11:16:18,126 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for companies
+2021-05-11 11:16:18,207 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 11:16:18,302 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for companies
+2021-05-11 11:16:18,387 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 11:16:18,746 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for companies
+2021-05-11 11:16:18,827 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 11:16:19,079 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for companies
+2021-05-11 11:16:19,160 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 11:16:19,377 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
+2021-05-11 11:16:19,459 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
+2021-05-11 11:16:19,704 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies

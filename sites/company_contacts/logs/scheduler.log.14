@@ -1,0 +1,5 @@
+2021-05-11 12:48:41,564 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 12:48:41,638 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 12:48:41,836 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 12:48:41,906 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 12:48:42,105 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts

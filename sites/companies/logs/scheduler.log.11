@@ -1,4 +1,1 @@
-2021-05-07 10:32:32,142 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for companies
-2021-05-07 10:32:32,409 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for companies
-2021-05-07 10:32:32,488 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for companies
-2021-05-07 10:32:32,780 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for companies
+2021-05-11 19:45:23,929 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for companies

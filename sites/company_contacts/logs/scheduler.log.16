@@ -1,0 +1,886 @@
+2021-05-10 19:57:17,320 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 19:58:17,743 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 19:59:18,164 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:00:18,864 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:00:24,308 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for company_contacts
+2021-05-10 20:00:24,648 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for company_contacts
+2021-05-10 20:00:24,729 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for company_contacts
+2021-05-10 20:00:25,177 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for company_contacts
+2021-05-10 20:00:25,269 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for company_contacts
+2021-05-10 20:00:25,541 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for company_contacts
+2021-05-10 20:00:25,622 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for company_contacts
+2021-05-10 20:00:25,875 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for company_contacts
+2021-05-10 20:00:25,950 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for company_contacts
+2021-05-10 20:00:26,228 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for company_contacts
+2021-05-10 20:00:26,397 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for company_contacts
+2021-05-10 20:00:26,750 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for company_contacts
+2021-05-10 20:00:26,874 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for company_contacts
+2021-05-10 20:00:27,189 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for company_contacts
+2021-05-10 20:00:27,272 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for company_contacts
+2021-05-10 20:00:27,545 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for company_contacts
+2021-05-10 20:00:27,630 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-10 20:00:27,739 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-10 20:00:27,816 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 20:00:27,908 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 20:00:27,980 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 20:00:28,267 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 20:00:28,348 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 20:00:28,563 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 20:00:28,633 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 20:00:28,851 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 20:00:28,929 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-10 20:00:29,146 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-10 20:00:29,221 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-10 20:00:29,470 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-10 20:00:29,543 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-10 20:00:29,836 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-10 20:00:29,909 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-10 20:00:30,171 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-10 20:01:19,265 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:02:19,623 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:03:20,054 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:04:20,564 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:04:22,006 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-10 20:04:22,095 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-10 20:04:22,163 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 20:04:22,253 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 20:04:22,328 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 20:04:22,587 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 20:04:22,656 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 20:04:22,849 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 20:04:22,919 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 20:04:23,118 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 20:04:23,189 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-10 20:04:23,388 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-10 20:05:20,960 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:06:21,327 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:07:21,689 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:08:22,162 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:08:23,930 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-10 20:08:24,026 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-10 20:08:24,123 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 20:08:24,254 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 20:08:24,350 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 20:08:24,650 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 20:08:24,716 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 20:08:24,910 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 20:08:24,981 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 20:08:25,181 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 20:08:25,251 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-10 20:08:25,450 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-10 20:09:22,549 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:10:22,928 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:11:23,346 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:12:23,829 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:12:25,594 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-10 20:12:25,683 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-10 20:12:25,756 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 20:12:25,845 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 20:12:25,916 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 20:12:26,173 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 20:12:26,243 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 20:12:26,435 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 20:12:26,505 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 20:12:26,703 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 20:12:26,773 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-10 20:12:26,969 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-10 20:13:24,174 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:14:24,617 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:15:25,125 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:15:26,535 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-10 20:15:26,723 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-10 20:15:26,798 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-10 20:15:27,101 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-10 20:15:27,177 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-10 20:15:27,450 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-10 20:18:18,393 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 20:18:20,381 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-10 20:18:20,469 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-10 20:18:20,540 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 20:18:20,629 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 20:18:20,701 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 20:18:20,961 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 20:18:21,030 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 20:18:21,223 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 20:18:21,294 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 20:18:21,501 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 20:18:21,587 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-10 20:18:22,441 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-10 21:56:06,409 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 21:56:13,150 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for company_contacts
+2021-05-10 21:56:13,451 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for company_contacts
+2021-05-10 21:56:13,525 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for company_contacts
+2021-05-10 21:56:13,967 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for company_contacts
+2021-05-10 21:56:14,059 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for company_contacts
+2021-05-10 21:56:14,303 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for company_contacts
+2021-05-10 21:56:14,376 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for company_contacts
+2021-05-10 21:56:14,676 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for company_contacts
+2021-05-10 21:56:14,755 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for company_contacts
+2021-05-10 21:56:15,023 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for company_contacts
+2021-05-10 21:56:15,099 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for company_contacts
+2021-05-10 21:56:15,345 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for company_contacts
+2021-05-10 21:56:15,422 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for company_contacts
+2021-05-10 21:56:15,673 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for company_contacts
+2021-05-10 21:56:15,750 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for company_contacts
+2021-05-10 21:56:16,199 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for company_contacts
+2021-05-10 21:56:16,346 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-10 21:56:16,486 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-10 21:56:16,553 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 21:56:16,643 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 21:56:16,716 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 21:56:16,989 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 21:56:17,062 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 21:56:17,269 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 21:56:17,381 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 21:56:17,653 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 21:56:17,730 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-10 21:56:17,933 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-10 21:56:18,002 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-10 21:56:18,265 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-10 21:56:18,337 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-10 21:56:18,649 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-10 21:56:18,756 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-10 21:56:19,067 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-10 21:57:06,839 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 21:58:07,189 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 21:59:07,493 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 22:00:08,183 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 22:00:14,749 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for company_contacts
+2021-05-10 22:00:15,050 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for company_contacts
+2021-05-10 22:00:15,127 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for company_contacts
+2021-05-10 22:00:15,524 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for company_contacts
+2021-05-10 22:00:15,599 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for company_contacts
+2021-05-10 22:00:15,860 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for company_contacts
+2021-05-10 22:00:15,936 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for company_contacts
+2021-05-10 22:00:16,205 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for company_contacts
+2021-05-10 22:00:16,286 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for company_contacts
+2021-05-10 22:00:16,556 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for company_contacts
+2021-05-10 22:00:16,633 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for company_contacts
+2021-05-10 22:00:16,951 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for company_contacts
+2021-05-10 22:00:17,037 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for company_contacts
+2021-05-10 22:00:17,282 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for company_contacts
+2021-05-10 22:00:17,370 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for company_contacts
+2021-05-10 22:00:17,673 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for company_contacts
+2021-05-10 22:00:17,762 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-10 22:00:17,869 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-10 22:00:17,945 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 22:00:18,033 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 22:00:18,099 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 22:00:18,364 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 22:00:18,436 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 22:00:18,635 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 22:00:18,706 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 22:00:18,914 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 22:00:18,987 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-10 22:00:19,191 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-10 22:00:19,266 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-10 22:00:19,523 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-10 22:00:19,598 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-10 22:00:19,900 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-10 22:00:19,977 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-10 22:00:20,251 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-10 22:01:08,571 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 22:02:09,010 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 22:03:09,353 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 22:04:09,875 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 22:04:12,701 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-10 22:04:12,791 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-10 22:04:12,859 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 22:04:12,948 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 22:04:13,018 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 22:04:13,278 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 22:04:13,347 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 22:04:13,541 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 22:04:13,610 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 22:04:13,810 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 22:04:13,879 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-10 22:04:14,081 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-10 22:10:46,462 DEBUG scheduler Queued events for site company_contacts
+2021-05-10 22:10:48,349 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-10 22:10:48,441 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-10 22:10:48,507 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 22:10:48,597 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-10 22:10:48,664 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 22:10:48,924 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-10 22:10:48,993 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 22:10:49,189 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-10 22:10:49,257 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 22:10:49,458 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-10 22:10:49,528 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-10 22:10:49,726 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 00:04:29,150 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 00:04:32,236 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_drive.google_drive.daily_backup for company_contacts
+2021-05-11 00:04:32,693 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_drive.google_drive.daily_backup for company_contacts
+2021-05-11 00:04:32,800 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for company_contacts
+2021-05-11 00:04:33,195 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily for company_contacts
+2021-05-11 00:04:33,286 INFO scheduler Scheduled Job Start: frappe.utils.change_log.check_for_update for company_contacts
+2021-05-11 00:04:34,151 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for company_contacts
+2021-05-11 00:04:34,740 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily for company_contacts
+2021-05-11 06:15:04,811 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:29:43,823 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:29:46,223 INFO scheduler Scheduled Job Start: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for company_contacts
+2021-05-11 07:29:46,610 INFO scheduler Scheduled Job Complete: frappe.core.doctype.log_settings.log_settings.run_log_clean_up for company_contacts
+2021-05-11 07:29:46,694 INFO scheduler Scheduled Job Start: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for company_contacts
+2021-05-11 07:29:47,045 INFO scheduler Scheduled Job Complete: frappe.core.doctype.prepared_report.prepared_report.delete_expired_prepared_reports for company_contacts
+2021-05-11 07:29:47,127 INFO scheduler Scheduled Job Start: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for company_contacts
+2021-05-11 07:29:47,392 INFO scheduler Scheduled Job Complete: frappe.email.doctype.unhandled_email.unhandled_email.remove_old_unhandled_emails for company_contacts
+2021-05-11 07:29:47,467 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for company_contacts
+2021-05-11 07:29:47,819 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed for company_contacts
+2021-05-11 07:29:47,912 INFO scheduler Scheduled Job Start: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for company_contacts
+2021-05-11 07:29:48,248 INFO scheduler Scheduled Job Complete: frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry for company_contacts
+2021-05-11 07:29:48,336 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_contacts.google_contacts.sync for company_contacts
+2021-05-11 07:29:48,746 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_contacts.google_contacts.sync for company_contacts
+2021-05-11 07:29:48,818 INFO scheduler Scheduled Job Start: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for company_contacts
+2021-05-11 07:29:49,056 INFO scheduler Scheduled Job Complete: frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points for company_contacts
+2021-05-11 07:29:49,125 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_daily_updates for company_contacts
+2021-05-11 07:29:49,387 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_daily_updates for company_contacts
+2021-05-11 07:29:49,472 INFO scheduler Scheduled Job Start: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for company_contacts
+2021-05-11 07:29:49,766 INFO scheduler Scheduled Job Complete: frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record for company_contacts
+2021-05-11 07:29:49,880 INFO scheduler Scheduled Job Start: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for company_contacts
+2021-05-11 07:29:50,463 INFO scheduler Scheduled Job Complete: frappe.email.doctype.auto_email_report.auto_email_report.send_daily for company_contacts
+2021-05-11 07:29:50,543 INFO scheduler Scheduled Job Start: frappe.utils.scheduler.restrict_scheduler_events_if_dormant for company_contacts
+2021-05-11 07:29:50,776 INFO scheduler Scheduled Job Failed: frappe.utils.scheduler.restrict_scheduler_events_if_dormant for company_contacts
+2021-05-11 07:29:50,866 INFO scheduler Scheduled Job Start: frappe.realtime.remove_old_task_logs for company_contacts
+2021-05-11 07:29:51,099 INFO scheduler Scheduled Job Complete: frappe.realtime.remove_old_task_logs for company_contacts
+2021-05-11 07:29:51,172 INFO scheduler Scheduled Job Start: frappe.email.doctype.notification.notification.trigger_daily_alerts for company_contacts
+2021-05-11 07:29:51,426 INFO scheduler Scheduled Job Complete: frappe.email.doctype.notification.notification.trigger_daily_alerts for company_contacts
+2021-05-11 07:29:51,497 INFO scheduler Scheduled Job Start: frappe.sessions.clear_expired_sessions for company_contacts
+2021-05-11 07:29:51,846 INFO scheduler Scheduled Job Complete: frappe.sessions.clear_expired_sessions for company_contacts
+2021-05-11 07:29:51,920 INFO scheduler Scheduled Job Start: frappe.desk.doctype.event.event.send_event_digest for company_contacts
+2021-05-11 07:29:52,201 INFO scheduler Scheduled Job Complete: frappe.desk.doctype.event.event.send_event_digest for company_contacts
+2021-05-11 07:29:52,278 INFO scheduler Scheduled Job Start: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for company_contacts
+2021-05-11 07:29:52,557 INFO scheduler Scheduled Job Complete: frappe.core.doctype.error_log.error_log.set_old_logs_as_seen for company_contacts
+2021-05-11 07:29:52,635 INFO scheduler Scheduled Job Start: frappe.desk.notifications.clear_notifications for company_contacts
+2021-05-11 07:29:52,877 INFO scheduler Scheduled Job Complete: frappe.desk.notifications.clear_notifications for company_contacts
+2021-05-11 07:29:52,947 INFO scheduler Scheduled Job Start: frappe.email.queue.set_expiry_for_email_queue for company_contacts
+2021-05-11 07:29:53,207 INFO scheduler Scheduled Job Complete: frappe.email.queue.set_expiry_for_email_queue for company_contacts
+2021-05-11 07:29:53,280 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for company_contacts
+2021-05-11 07:29:53,579 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for company_contacts
+2021-05-11 07:29:53,649 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for company_contacts
+2021-05-11 07:29:54,025 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for company_contacts
+2021-05-11 07:29:54,096 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for company_contacts
+2021-05-11 07:29:54,334 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for company_contacts
+2021-05-11 07:29:54,403 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for company_contacts
+2021-05-11 07:29:54,704 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for company_contacts
+2021-05-11 07:29:54,838 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for company_contacts
+2021-05-11 07:29:55,075 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for company_contacts
+2021-05-11 07:29:55,145 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for company_contacts
+2021-05-11 07:29:55,384 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for company_contacts
+2021-05-11 07:29:55,460 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for company_contacts
+2021-05-11 07:29:55,691 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for company_contacts
+2021-05-11 07:29:55,762 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for company_contacts
+2021-05-11 07:29:55,994 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for company_contacts
+2021-05-11 07:29:56,064 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 07:29:56,153 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 07:29:56,218 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:29:56,320 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:29:56,386 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:29:56,641 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:29:56,708 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:29:56,897 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:29:56,964 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:29:57,164 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:29:57,231 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 07:29:57,424 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 07:29:57,491 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 07:29:57,797 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 07:29:57,868 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 07:29:58,154 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 07:29:58,229 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 07:29:58,481 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 07:30:44,262 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:30:45,538 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 07:30:45,818 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 07:30:45,892 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 07:30:46,287 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 07:30:46,406 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 07:30:46,728 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 07:31:44,610 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:32:45,090 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:32:46,510 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 07:32:46,601 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 07:32:46,666 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:32:46,755 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:32:46,821 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:32:47,076 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:32:47,143 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:32:47,333 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:32:47,400 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:32:47,598 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:32:47,665 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 07:32:47,864 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 07:33:45,486 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:34:45,887 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:35:46,268 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:36:46,734 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:36:48,135 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 07:36:48,228 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 07:36:48,296 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:36:48,386 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:36:48,454 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:36:48,713 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:36:48,780 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:36:48,971 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:36:49,038 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:36:49,237 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:36:49,305 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 07:36:49,500 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 07:37:47,190 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:38:47,616 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:39:48,024 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:40:48,507 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:40:49,929 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 07:40:50,020 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 07:40:50,088 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:40:50,178 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:40:50,244 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:40:50,504 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:40:50,575 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:40:50,776 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:40:50,841 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:40:51,035 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:40:51,102 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 07:40:51,297 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 07:41:48,946 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:42:49,301 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:43:49,675 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:44:50,129 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:44:51,648 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 07:44:51,739 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 07:44:51,804 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:44:51,902 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:44:51,985 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:44:52,261 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:44:52,340 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:44:52,547 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:44:52,627 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:44:52,841 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:44:52,919 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 07:44:53,124 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 07:45:50,513 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:45:51,646 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 07:45:51,901 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 07:45:51,975 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 07:45:52,273 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 07:45:52,351 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 07:45:52,622 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 07:46:50,897 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:47:51,261 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:48:51,703 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:48:53,265 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 07:48:53,355 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 07:48:53,423 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:48:53,517 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:48:53,593 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:48:53,847 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:48:53,916 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:48:54,110 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:48:54,192 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:48:54,391 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:48:54,458 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 07:48:54,656 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 07:49:52,112 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:50:52,490 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:51:52,842 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:52:53,250 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:52:55,716 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 07:52:55,806 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 07:52:55,875 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:52:55,965 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:52:56,035 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:52:56,303 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:52:56,376 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:52:56,574 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:52:56,642 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:52:56,843 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:52:56,912 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 07:52:57,110 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 07:53:53,612 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:54:53,973 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:55:54,311 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:56:54,722 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:56:57,106 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 07:56:57,197 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 07:56:57,265 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:56:57,354 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 07:56:57,424 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:56:57,684 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 07:56:57,753 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:56:57,945 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 07:56:58,023 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:56:58,226 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 07:56:58,295 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 07:56:58,496 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 07:57:55,094 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:58:55,399 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 07:59:55,743 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:00:57,119 ERROR scheduler Exception in Enqueue Events for Site company_contacts
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 08:01:57,549 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:01:58,556 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for company_contacts
+2021-05-11 08:01:58,853 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for company_contacts
+2021-05-11 08:01:58,925 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for company_contacts
+2021-05-11 08:01:59,306 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for company_contacts
+2021-05-11 08:01:59,380 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for company_contacts
+2021-05-11 08:01:59,621 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for company_contacts
+2021-05-11 08:01:59,692 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for company_contacts
+2021-05-11 08:01:59,930 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for company_contacts
+2021-05-11 08:02:00,008 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for company_contacts
+2021-05-11 08:02:00,260 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for company_contacts
+2021-05-11 08:02:00,332 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for company_contacts
+2021-05-11 08:02:00,572 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for company_contacts
+2021-05-11 08:02:00,645 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for company_contacts
+2021-05-11 08:02:00,884 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for company_contacts
+2021-05-11 08:02:00,958 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for company_contacts
+2021-05-11 08:02:01,201 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for company_contacts
+2021-05-11 08:02:01,273 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:02:01,366 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:02:01,433 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:02:01,525 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:02:01,594 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:02:01,854 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:02:01,924 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:02:02,118 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:02:02,186 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:02:02,387 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:02:02,457 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:02:02,656 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:02:02,727 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 08:02:02,977 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 08:02:03,050 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 08:02:03,340 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 08:02:03,413 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 08:02:03,670 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 08:02:57,843 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:03:58,155 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:04:58,552 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:05:01,100 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:05:01,190 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:05:01,259 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:05:01,348 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:05:01,419 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:05:01,680 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:05:01,748 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:05:01,944 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:05:02,014 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:05:02,217 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:05:02,286 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:05:02,485 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:05:58,882 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:06:59,235 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:07:59,587 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:08:59,983 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:09:02,512 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:09:02,605 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:09:02,673 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:09:02,763 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:09:02,845 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:09:03,109 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:09:03,176 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:09:03,369 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:09:03,439 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:09:03,638 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:09:03,708 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:09:03,905 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:10:00,335 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:11:00,742 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:12:01,083 ERROR scheduler Exception in Enqueue Events for Site company_contacts
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 08:13:01,458 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:13:01,491 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:13:01,582 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:13:01,650 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:13:01,740 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:13:01,807 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:13:02,067 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:13:02,136 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:13:02,328 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:13:02,400 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:13:02,602 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:13:02,674 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:13:02,886 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:14:01,783 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:15:02,156 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:15:03,994 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 08:15:04,244 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 08:15:04,317 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 08:15:04,608 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 08:15:04,681 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 08:15:04,938 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 08:16:02,582 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:16:05,368 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:16:05,459 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:16:05,526 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:16:05,617 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:16:05,685 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:16:05,944 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:16:06,012 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:16:06,206 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:16:06,274 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:16:06,480 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:16:06,549 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:16:06,747 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:17:02,938 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:18:03,272 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:19:03,598 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:20:04,117 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:20:06,590 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:20:06,678 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:20:06,745 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:20:06,834 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:20:06,902 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:20:07,162 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:20:07,233 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:20:07,443 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:20:07,516 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:20:07,730 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:20:07,805 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:20:08,019 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:21:04,533 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:22:05,021 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:23:05,416 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:24:05,901 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:24:08,365 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:24:08,453 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:24:08,520 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:24:08,610 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:24:08,677 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:24:08,933 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:24:09,001 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:24:09,191 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:24:09,260 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:24:09,457 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:24:09,526 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:24:09,722 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:25:06,316 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:26:06,638 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:27:07,090 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:28:07,608 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:28:09,975 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:28:10,064 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:28:10,132 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:28:10,221 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:28:10,294 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:28:10,550 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:28:10,620 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:28:10,811 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:28:10,880 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:28:11,077 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:28:11,146 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:28:11,342 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:29:07,865 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:30:08,297 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:30:10,578 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 08:30:10,835 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 08:30:10,915 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 08:30:11,198 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 08:30:11,271 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 08:30:11,532 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 08:31:08,698 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:32:09,130 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:32:11,511 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:32:11,601 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:32:11,668 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:32:11,758 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:32:11,826 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:32:12,087 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:32:12,157 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:32:12,352 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:32:12,422 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:32:12,621 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:32:12,690 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:32:12,888 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:33:09,659 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:34:10,012 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:35:10,390 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:36:10,857 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:36:13,332 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:36:13,422 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:36:13,491 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:36:13,579 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:36:13,647 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:36:13,905 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:36:13,973 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:36:14,166 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:36:14,237 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:36:14,436 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:36:14,506 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:36:14,704 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:37:11,223 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:38:11,678 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:39:12,130 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:40:12,629 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:40:15,008 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:40:15,096 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:40:15,166 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:40:15,254 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:40:15,323 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:40:15,579 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:40:15,652 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:40:15,844 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:40:15,913 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:40:16,112 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:40:16,181 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:40:16,377 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:41:12,964 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:42:13,410 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:43:13,820 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:44:14,323 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:44:16,702 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:44:16,791 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:44:16,860 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:44:16,948 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:44:17,015 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:44:17,273 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:44:17,357 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:44:17,550 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:44:17,618 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:44:17,814 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:44:17,884 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:44:18,080 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:45:14,781 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:45:16,984 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 08:45:17,236 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 08:45:17,310 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 08:45:17,598 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 08:45:17,671 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 08:45:17,926 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 08:46:15,045 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:47:15,390 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:48:15,786 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:48:18,238 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:48:18,330 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:48:18,400 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:48:18,492 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:48:18,562 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:48:18,830 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:48:18,900 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:48:19,105 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:48:19,184 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:48:19,394 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:48:19,466 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:48:19,675 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:49:16,141 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:50:16,506 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:51:16,887 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:52:17,320 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:52:19,765 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:52:19,860 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:52:19,935 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:52:20,031 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:52:20,104 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:52:20,375 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:52:20,447 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:52:20,649 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:52:20,723 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:52:20,933 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:52:21,006 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:52:21,222 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:53:17,684 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:54:18,214 ERROR scheduler Exception in Enqueue Events for Site company_contacts
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 08:55:18,589 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:56:19,001 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:56:21,863 INFO scheduler Scheduled Job Start: frappe.monitor.flush for company_contacts
+2021-05-11 08:56:21,957 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for company_contacts
+2021-05-11 08:56:22,027 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:56:22,122 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for company_contacts
+2021-05-11 08:56:22,196 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:56:22,493 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for company_contacts
+2021-05-11 08:56:22,573 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:56:22,805 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for company_contacts
+2021-05-11 08:56:22,884 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:56:23,093 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for company_contacts
+2021-05-11 08:56:23,172 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for company_contacts
+2021-05-11 08:56:23,393 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for company_contacts
+2021-05-11 08:57:19,366 DEBUG scheduler Queued events for site company_contacts
+2021-05-11 08:58:20,633 ERROR scheduler Exception in Enqueue Events for Site company_contacts
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 08:59:21,873 ERROR scheduler Exception in Enqueue Events for Site company_contacts
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:00:23,095 ERROR scheduler Exception in Enqueue Events for Site company_contacts
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+
+2021-05-11 09:01:24,405 ERROR scheduler Exception in Enqueue Events for Site company_contacts
+Traceback (most recent call last):
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 64, in enqueue_events_for_site
+    if is_scheduler_inactive():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 97, in is_scheduler_inactive
+    if is_scheduler_disabled():
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/utils/scheduler.py", line 106, in is_scheduler_disabled
+    return not frappe.utils.cint(frappe.db.get_single_value("System Settings", "enable_scheduler"))
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 559, in get_single_value
+    val = self.sql("""select `value` from
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 121, in sql
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/database.py", line 74, in connect
+    self._conn = self.get_connection()
+  File "/Users/andela/Dev/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 74, in get_connection
+    conn = pymysql.connect(
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 632, in connect
+    self._get_server_information()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 1055, in _get_server_information
+    packet = self._read_packet()
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/andela/Dev/frappe-bench/env/lib/python3.9/site-packages/pymysql/connections.py", line 748, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query')
+

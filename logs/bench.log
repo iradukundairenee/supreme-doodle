@@ -360,3 +360,153 @@
 2021-05-10 08:43:15,907 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
 2021-05-10 08:43:15,957 INFO /Users/andela/Dev/bench-env/bin/bench watch
 2021-05-10 08:43:15,961 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-10 18:00:01,413 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-10 18:00:01,414 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-10 19:31:38,936 INFO /Users/andela/Dev/bench-env/bin/bench new-app todo-app
+2021-05-10 19:31:38,946 LOG creating new app todo_app
+2021-05-10 19:32:19,106 INFO /Users/andela/Dev/bench-env/bin/bench new_app todo_app
+2021-05-10 19:32:19,111 WARNING /Users/andela/Dev/bench-env/bin/bench new_app todo_app executed with exit code 2
+2021-05-10 19:33:25,558 INFO /Users/andela/Dev/bench-env/bin/bench new-site todo_app
+2021-05-10 19:33:41,046 INFO /Users/andela/Dev/bench-env/bin/bench new-app todo_app
+2021-05-10 19:33:41,050 LOG creating new app todo_app
+2021-05-10 19:34:15,175 LOG installing todo_app
+2021-05-10 19:34:15,177 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/todo_app 
+2021-05-10 19:34:18,226 DEBUG bench build --app todo_app
+2021-05-10 19:34:18,365 INFO /Users/andela/Dev/bench-env/bin/bench build --app todo_app
+2021-05-10 19:34:43,711 INFO /Users/andela/Dev/bench-env/bin/bench new-site todo_app
+2021-05-10 19:35:14,553 INFO /Users/andela/Dev/bench-env/bin/bench drop todo_app
+2021-05-10 19:35:14,554 WARNING /Users/andela/Dev/bench-env/bin/bench drop todo_app executed with exit code 2
+2021-05-10 19:35:31,974 INFO /Users/andela/Dev/bench-env/bin/bench drop-site todo_app
+2021-05-10 19:35:41,747 INFO /Users/andela/Dev/bench-env/bin/bench drop-site todo_app --force
+2021-05-10 19:36:11,414 INFO /Users/andela/Dev/bench-env/bin/bench new-site todo_app
+2021-05-10 19:42:20,001 INFO /Users/andela/Dev/bench-env/bin/bench --site todo_app install-app todo_app
+2021-05-10 19:44:01,806 INFO /Users/andela/Dev/bench-env/bin/bench --site todo_app install-app todo_app
+2021-05-10 19:44:47,268 INFO /Users/andela/Dev/bench-env/bin/bench --site todo_app install-app todo_app
+2021-05-10 19:44:58,560 INFO /Users/andela/Dev/bench-env/bin/bench use todo_app
+2021-05-10 19:45:08,808 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-10 19:45:10,319 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-10 19:45:10,406 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-10 19:45:10,416 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-10 19:45:10,418 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-10 19:45:10,419 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-10 19:45:10,541 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-10 19:46:19,696 INFO /usr/local/bin/bench --site todo_app install-app todo_app
+2021-05-10 19:46:44,250 INFO /usr/local/bin/bench use todo_app
+2021-05-10 19:48:48,226 INFO /usr/local/bin/bench new-site todo_site
+2021-05-10 19:49:48,592 INFO /usr/local/bin/bench --site todo_site install-app todo_app
+2021-05-10 19:49:58,368 INFO /usr/local/bin/bench use todo_site
+2021-05-10 19:54:32,225 INFO /usr/local/bin/bench drop-site todo_app
+2021-05-10 19:58:39,217 INFO /usr/local/bin/bench drop-site todo_site
+2021-05-10 19:58:53,607 INFO /usr/local/bin/bench drop-site todo_app
+2021-05-10 19:59:10,070 INFO /usr/local/bin/bench drop-site todo_app --force
+2021-05-10 20:04:45,177 INFO /usr/local/bin/bench new-site my_site
+2021-05-10 20:06:39,742 INFO /usr/local/bin/bench --site my_site install-app todo_app
+2021-05-10 20:06:58,186 INFO /usr/local/bin/bench use my_site
+2021-05-10 20:08:18,608 INFO /usr/local/bin/bench drop-site my_site
+2021-05-10 20:08:59,450 INFO /usr/local/bin/bench use companies
+2021-05-11 07:36:21,564 INFO /usr/local/bin/bench drop-site todo_app
+2021-05-11 07:36:28,420 INFO /usr/local/bin/bench drop-site todo_app --force
+2021-05-11 07:38:17,590 INFO /usr/local/bin/bench use companies
+2021-05-11 07:43:29,807 INFO /usr/local/bin/bench new-site testing
+2021-05-11 08:57:44,117 INFO /usr/local/bin/bench mariadb
+2021-05-11 09:09:14,290 INFO /usr/local/bin/bench --site todo_app install-app todo_app
+2021-05-11 10:41:23,770 INFO /usr/local/bin/bench get-app https://github.com/Benefactors-Ltd/vsdc.git
+2021-05-11 10:41:23,955 LOG Getting app vsdc
+2021-05-11 10:41:23,956 DEBUG cd ./apps && git clone https://github.com/Benefactors-Ltd/vsdc.git  --depth 1 --origin upstream
+2021-05-11 10:41:27,987 LOG installing vsdc
+2021-05-11 10:41:27,987 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/vsdc 
+2021-05-11 10:41:31,477 DEBUG bench build --app vsdc
+2021-05-11 10:41:31,633 INFO /usr/local/bin/bench build --app vsdc
+2021-05-11 10:45:38,226 INFO /usr/local/bin/bench --site todo_app install-app todo_app
+2021-05-11 10:46:34,639 INFO /usr/local/bin/bench drop-site testing
+2021-05-11 10:46:42,017 INFO /usr/local/bin/bench drop-site testing --force
+2021-05-11 10:47:34,008 INFO /usr/local/bin/bench drop-site testing
+2021-05-11 10:47:39,582 INFO /usr/local/bin/bench drop-site testing --force
+2021-05-11 10:48:34,769 INFO /usr/local/bin/bench new-site vsdc
+2021-05-11 11:07:42,893 INFO /Users/andela/Dev/bench-env/bin/bench --site vsdc install-app vsdc
+2021-05-11 11:08:41,505 INFO /Users/andela/Dev/bench-env/bin/bench --site vsdc install-app vsdc
+2021-05-11 11:08:57,999 INFO /Users/andela/Dev/bench-env/bin/bench use vsdc
+2021-05-11 11:09:04,826 INFO /Users/andela/Dev/bench-env/bin/bench --site vsdc install-app vsdc
+2021-05-11 11:09:11,909 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-11 11:09:13,210 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-11 11:09:13,215 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-11 11:09:13,245 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-11 11:09:13,268 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-11 11:09:13,363 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-11 11:09:13,391 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-11 11:56:57,795 INFO /usr/local/bin/bench use vsdc
+2021-05-11 12:00:00,858 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-11 12:00:00,859 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-11 12:05:56,611 INFO /usr/local/bin/bench drop-site
+2021-05-11 12:06:09,919 INFO /usr/local/bin/bench drop-site csdc
+2021-05-11 12:06:19,481 INFO /usr/local/bin/bench drop-site vsdc
+2021-05-11 12:14:56,911 INFO /Users/andela/Dev/bench-env/bin/bench new-site site1.local
+2021-05-11 12:15:29,945 INFO /Users/andela/Dev/bench-env/bin/bench use site1.local
+2021-05-11 12:16:08,369 INFO /Users/andela/Dev/bench-env/bin/bench --site site1.local install-app vsdc
+2021-05-11 12:33:48,918 INFO /Users/andela/Dev/bench-env/bin/bench drop-site site1.local
+2021-05-11 12:33:54,423 INFO /Users/andela/Dev/bench-env/bin/bench drop-site site1.local --force
+2021-05-11 12:34:19,647 INFO /Users/andela/Dev/bench-env/bin/bench new-site vsdc_site
+2021-05-11 12:41:30,278 INFO /Users/andela/Dev/bench-env/bin/bench use vsdc_site
+2021-05-11 12:41:55,286 INFO /Users/andela/Dev/bench-env/bin/bench --site vsdc_site install-app vsdc
+2021-05-11 12:42:18,454 INFO /Users/andela/Dev/bench-env/bin/bench --site vsdc_site install-app vsdc
+2021-05-11 12:42:33,095 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-11 12:42:34,505 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-11 12:42:34,666 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-11 12:42:34,722 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-11 12:42:34,724 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-11 12:42:34,744 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-11 12:42:34,746 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-11 12:53:44,639 INFO /usr/local/bin/bench migrate
+2021-05-11 18:00:01,322 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-11 18:00:01,328 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-11 18:34:05,649 INFO /usr/local/bin/bench migrate
+2021-05-11 18:45:48,707 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-11 18:45:49,964 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-11 18:45:49,973 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-11 18:45:49,975 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-11 18:45:50,011 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-11 18:45:50,013 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-11 18:45:50,024 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-11 19:18:24,220 INFO /usr/local/bin/bench --site vsdc_site set-config developer_mode 1
+2021-05-11 19:51:23,391 INFO /usr/local/bin/bench migrate
+2021-05-11 19:53:04,477 INFO /usr/local/bin/bench --site vsdc set-config developer_mode 1
+2021-05-11 19:53:24,291 INFO /usr/local/bin/bench --site vsdc_site set-config developer_mode 1
+2021-05-11 19:54:06,543 INFO /usr/local/bin/bench migrate
+2021-05-11 20:04:17,568 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-11 20:04:19,226 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-11 20:04:19,256 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-11 20:04:19,340 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-11 20:04:19,374 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-11 20:04:19,385 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-11 20:04:19,420 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-12 12:00:01,611 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-12 12:00:01,611 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-13 12:00:01,531 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-13 12:00:01,531 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-13 18:00:00,978 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-13 18:00:01,051 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-14 00:00:01,570 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-14 00:00:01,570 INFO /usr/local/bin/bench --verbose --site all backup
+2021-05-14 20:49:11,360 INFO /usr/local/bin/bench setup requirements
+2021-05-14 20:49:11,367 DEBUG ./env/bin/python -m pip install -q -U pip
+2021-05-14 20:49:14,720 LOG installing frappe
+2021-05-14 20:49:14,720 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/frappe 
+2021-05-14 20:49:17,833 DEBUG cd ./apps/frappe && yarn install
+2021-05-14 20:49:59,807 LOG installing library_management
+2021-05-14 20:49:59,808 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/library_management 
+2021-05-14 20:50:02,772 LOG installing company_contacts
+2021-05-14 20:50:02,772 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/company_contacts 
+2021-05-14 20:50:05,676 LOG installing todo_app
+2021-05-14 20:50:05,676 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/todo_app 
+2021-05-14 20:50:08,454 LOG installing vsdc
+2021-05-14 20:50:08,454 DEBUG ./env/bin/python -m pip install -q -U -e ./apps/vsdc 
+2021-05-14 20:50:21,651 INFO /usr/local/bin/bench migrate
+2021-05-14 20:56:05,734 INFO /Users/andela/Dev/bench-env/bin/bench start
+2021-05-14 20:56:07,245 INFO /Users/andela/Dev/bench-env/bin/bench serve --port 8000
+2021-05-14 20:56:07,301 INFO /Users/andela/Dev/bench-env/bin/bench watch
+2021-05-14 20:56:07,384 INFO /Users/andela/Dev/bench-env/bin/bench schedule
+2021-05-14 20:56:07,464 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue default
+2021-05-14 20:56:07,482 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue long
+2021-05-14 20:56:07,559 INFO /Users/andela/Dev/bench-env/bin/bench worker --queue short
+2021-05-14 20:56:43,905 INFO /usr/local/bin/bench migrate
+2021-05-14 20:57:08,531 INFO /usr/local/bin/bench build

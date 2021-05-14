@@ -1,0 +1,5 @@
+2021-05-11 20:29:39,749 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for company_contacts
+2021-05-11 20:29:39,826 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 20:29:40,120 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for company_contacts
+2021-05-11 20:29:40,226 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for company_contacts
+2021-05-11 20:29:40,488 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for company_contacts
